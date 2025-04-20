@@ -1,0 +1,554 @@
+/* Base Styles */
+:root {
+    --primary-dark: #3A2E26;
+    --secondary-dark: #5C4B3E;
+    --accent-yellow: #E8B54B;
+    --light-text: #F5F5F5;
+    --dark-text: #333333;
+    --wood-texture: url('../img/background/wood-texture.jpg');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-text);
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    background-image: url('assets/img/background/wood-texture.jpg'), linear-gradient(to bottom, #ffffff, #f0f0f0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Prevent horizontal overflow */
+html { 
+    overflow-x: hidden !important; 
+}
+body {
+    overflow-x: hidden !important;
+    position: relative;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-dark);
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-dark);
+    background-image: var(--wood-texture);
+    background-blend-mode: multiply;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-yellow);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-yellow);
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+    width: 70%;
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Light border */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+#header-placeholder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays above other content */
+    background-color: white; /* Adjust based on your design */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+}
+body {
+    padding-top: 80px; /* Adjust this to match your header height */
+}
+
+
+/* Language Switcher */
+.language-switcher .lang-btn {
+    color: var(--light-text);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 2px;
+    min-width: 36px;
+}
+
+.language-switcher .lang-btn.active {
+    background-color: var(--accent-yellow);
+    color: var(--primary-dark);
+    border-color: var(--accent-yellow);
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.hero-content {
+    z-index: 1;
+    animation: fadeInUp 1s ease;
+}
+
+
+.hero-title{
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+    margin-bottom: 20px; /* Space between title and subtitle */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Add padding around text */
+    display: inline-block; /* Ensures background wraps around text */       
+}
+
+.hero-subtitle {
+    line-height: 1.5; /* Increase vertical spacing between lines */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    padding: 15px; /* Add padding around text */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block; /* Ensures background wraps around text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+}
+
+
+
+.hero-fixed-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/img/background/hero-bg.jpg');
+    background-attachment: fixed; /* This makes the background image static */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+}
+.hero-fixed-background + .section {
+    background: transparent; /* Makes the next section transparent so the hero image shows through */
+    padding-top: 0; /* Adjust padding to ensure proper spacing */
+    z-index: 0; /* Ensures this section stays below the hero */
+}
+
+
+.hero-fixed-background-narrow {
+    min-height: 20vh; /* Ensures the hero section is no less than 40% of the viewport height */
+    height: 20vh; /* Set the height to 50% of the viewport height */
+    display: flex;
+}
+
+
+/* In your CSS file */
+.hero-content .breadcrumb {
+    background-color: rgba(248, 249, 250, 0.75) !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem !important;
+  }
+
+  
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--accent-yellow);
+    border-color: var(--accent-yellow);
+    color: var(--primary-dark);
+    font-weight: 600;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    border-color: var(--accent-yellow);
+    color: var(--accent-yellow);
+    transform: translateY(-3px);
+}
+
+.btn-outline-primary {
+    border-color: var(--accent-yellow);
+    color: var(--accent-yellow);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--accent-yellow);
+    color: var(--primary-dark);
+}
+
+/* Section Styling */
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--accent-yellow);
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: var(--primary-dark);
+    font-weight: 700;
+}
+
+.price {
+    color: var(--accent-yellow);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: var(--primary-dark);
+    background-image: var(--wood-texture);
+    background-blend-mode: multiply;
+    color: var(--light-text);
+}
+
+.footer a {
+    color: var(--accent-yellow);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-heading {
+    color: #ADD8E6; /* or rgb(173, 216, 230) */;
+    /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--accent-yellow);
+    color: var(--primary-dark);
+    text-decoration: none;
+}
+
+/* WhatsApp Button */
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+/* Menu Page Specific */
+.menu-category {
+    margin-bottom: 50px;
+}
+
+.menu-category h3 {
+    border-bottom: 2px solid var(--accent-yellow);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.allergens {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.allergens span {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2px 8px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+
+
+
+
+.equal-width-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+}
+
+/* Reservation Form */
+.reservation-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+    border-color: var(--accent-yellow);
+    box-shadow: 0 0 0 0.25rem rgba(232, 181, 75, 0.25);
+}
+
+/* Gallery */
+.gallery-category {
+    margin-bottom: 50px;
+}
+
+.gallery-category h3 {
+    border-bottom: 2px solid var(--accent-yellow);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Ensure rounded corners aren't covered */
+.gallery-item img.rounded {
+    display: block; /* Removes bottom spacing */
+}
+
+/* Title overlay styling */
+.image-title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    border-bottom-left-radius: 0.375rem; /* Match Bootstrap's rounded */
+    border-bottom-right-radius: 0.375rem;
+    transform: translateY(0%); /* Adjust if needed */
+}
+
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Reviews */
+.review-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.review-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reviewer-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.star-rating {
+    color: var(--accent-yellow);
+}
+
+/* Admin Panel */
+.admin-panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.admin-nav .nav-link {
+    color: var(--primary-dark);
+}
+
+.admin-nav .nav-link.active {
+    background-color: var(--accent-yellow);
+    color: var(--primary-dark);
+}
+
+
+
+
+
+
+.dropdown-allergens-additives .badge {
+    height: calc(2rem); /* Reduced height */
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem; /* Adjusted padding */
+}
+.dropdown-allergens-additives .dropdown-toggle {
+    height: 2rem; /* Reduced height */
+    padding: 0.25rem 0.75rem; /* Adjusted padding */
+}
+.dropdown-allergens-additives .d-flex.align-items-center {
+    align-items: center !important; /* Ensure vertical alignment */
+}
+
+
+
+
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding: 100px 0;
+    }
+    
+    .section {
+        padding: 50px 0;
+    }
+    
+    .navbar-collapse {
+        background-color: var(--primary-dark);
+        padding: 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    #main-nav.active {
+        display: block;
+    }
+}
+
+
+

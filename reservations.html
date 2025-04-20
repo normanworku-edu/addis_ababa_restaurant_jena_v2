@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Make a reservation at our Ethiopian restaurant">
+    <title>Reservations - Ethiopian Restaurant</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="reservations-page">
+    <!-- Header will be inserted here by JavaScript -->
+    <div id="header-placeholder"></div>
+    
+    <!-- Reservation Hero Section -->
+    <section class="hero hero-sm hero-fixed-background hero-fixed-background-narrow mb-5" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/shared/shared-small-bg.jpg');">
+        <div class="container">
+            <div class="hero-content text-center text-white">
+                <h1 class="text-white fw-bold fs-2 mb-3" data-translate="reservationTitle">Make a Reservation</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html" data-translate="navHome">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page" data-translate="navReservations">Reservations</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reservation Form Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="reservation-form">
+                        <form id="reservation-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="reservation-name" class="form-label" data-translate="reservationName">Name</label>
+                                    <input type="text" class="form-control" id="reservation-name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="reservation-phone" class="form-label" data-translate="reservationPhone">Phone Number</label>
+                                    <input type="tel" class="form-control" id="reservation-phone" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="reservation-date" class="form-label" data-translate="reservationDate">Date</label>
+                                    <input type="date" class="form-control" id="reservation-date" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="reservation-time" class="form-label" data-translate="reservationTime">Time</label>
+                                    <input type="time" class="form-control" id="reservation-time" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="reservation-guests" class="form-label" data-translate="reservationGuests">Number of Guests</label>
+                                    <select class="form-select" id="reservation-guests" required>
+                                        <option value="1">1 Person</option>
+                                        <option value="2">2 People</option>
+                                        <option value="3">3 People</option>
+                                        <option value="4">4 People</option>
+                                        <option value="5">5 People</option>
+                                        <option value="6">6 People</option>
+                                        <option value="7">7 People</option>
+                                        <option value="8">8+ People</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="reservation-table-pref" class="form-label" data-translate="reservationTablePref">Table Preference</label>
+                                    <select class="form-select" id="reservation-table-pref">
+                                        <option value="none" data-translate="noPreference">No preference</option>
+                                        <option value="window" data-translate="windowTable">Window table</option>
+                                        <option value="quiet" data-translate="quietArea">Quiet area</option>
+                                        <option value="outside" data-translate="outsideTable">Outside table</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="reservation-notes" class="form-label" data-translate="specialRequests">Special Requests</label>
+                                <textarea class="form-control" id="reservation-notes" rows="3"></textarea>
+                            </div>
+                            
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg" data-translate="reservationSubmit">Submit Reservation</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer will be inserted here by JavaScript -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Shared JS -->
+    <script src="assets/js/shared.js"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        // Insert header and footer
+        /*
+        document.getElementById('header-placeholder').innerHTML = generateHeader();
+        document.getElementById('footer-placeholder').innerHTML = generateFooter();
+        */
+        
+        // Set minimum date for reservation (today)
+        document.getElementById('reservation-date').min = new Date().toISOString().split('T')[0];
+    </script>
+</body>
+</html>

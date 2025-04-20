@@ -1,0 +1,26 @@
+{
+    "createDate": "2024-01-01T00:00:00Z",
+    "lastUpdated": "2025-04-19T08:01:14.770Z",
+    "userAccounts": {
+        "guest": {
+            "password": "guest2",
+            "userEmail": "normanworku@gmail.com",
+            "isBlocked": false
+        },
+        "admin": {
+            "password": "admin",
+            "userEmail": "normanworku@gmail.com",
+            "isBlocked": false
+        },
+        "superadmin": {
+            "password": "superadmin",
+            "userEmail": "normanworku@gmail.com",
+            "isBlocked": false
+        },
+        "norman": {
+            "password": "admin12",
+            "userEmail": "n@f.c",
+            "isBlocked": false
+        }
+    }
+}

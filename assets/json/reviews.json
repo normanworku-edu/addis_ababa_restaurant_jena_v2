@@ -1,0 +1,161 @@
+{
+  "createDate": "2024-01-01T00:00:00Z",
+  "lastUpdated": "2025-04-14T15:29:46.397Z",
+  "reviews": {
+    "category": [
+      {
+        "categoryId": "googlemaps",
+        "uniqueRandomTag": "a1b2c3d4e5",
+        "name": {
+          "en": "Google Maps",
+          "de": "Google Maps",
+          "am": "ጉግል ካርታ"
+        },
+        "review": [
+          {
+            "id": "gm1",
+            "uniqueRandomTag": "f6g7h8i9j0",
+            "name": {
+              "en": "Sarah Johnson",
+              "de": "Sarah Johnson",
+              "am": "ሳራ ጆንሰን"
+            },
+            "comment": {
+              "en": "The best Ethiopian food I've had outside of Addis Ababa! The Doro Wot was perfectly spiced and the injera was fresh and fluffy. The coffee ceremony after dinner was the perfect ending.",
+              "de": "Das beste äthiopische Essen, das ich außerhalb von Addis Abeba hatte! Das Doro Wot war perfekt gewürzt und das Injera frisch und luftig. Die Kaffeezeremonie nach dem Abendessen war der perfekte Abschluss.",
+              "am": "ከአዲስ አበባ ውጭ የተመገብኩት ከሁሉ የተሻለ የኢትዮጵያ ምግብ! ዶሮ ወጡ በትክክል ተቀቅሎ ነበር፣ እንጀራውም በቅርቡ የተሰራ እና ለስላሳ ነበር። ከምሳው በኋላ የቡና ሥርዓቱ ፍጹም መጨረሻ ነበር።"
+            },
+            "rating": "5",
+            "url": "https://maps.app.goo.gl/752aaoEsEKUEg8uJ6",
+            "hidden": false,
+            "selected": true,
+            "lastUpdated": "2025-04-14T15:29:46.397Z",
+            "date": "2025-04-11"
+          },
+          {
+            "id": "gm2",
+            "uniqueRandomTag": "k1l2m3n4o5",
+            "name": {
+              "en": "Thomas Müller",
+              "de": "Thomas Müller",
+              "am": "ቶማስ ሚውለር"
+            },
+            "comment": {
+              "en": "Authentic flavors and generous portions. The vegetarian platter was amazing - so many different flavors to try. Service was a bit slow but worth the wait.",
+              "de": "Authentische Aromen und großzügige Portionen. Die vegetarische Platte war fantastisch - so viele verschiedene Geschmacksrichtungen zum Probieren. Der Service war etwas langsam, aber die Wartezeit wert.",
+              "am": "እውነተኛ ጣዕም እና ልጣፍ ክፍሎች። የአታክልት ምግብ አስደናቂ ነበር - ለመሞከር ብዙ የተለያዩ ጣዕሞች። አገልግሎቱ ትንሽ ዘግይቶ ነበር ነገር ግን ለጥበቃ ዋጋ ያለው።"
+            },
+            "date": "2023-02-22",
+            "rating": "4",
+            "url": "https://maps.app.goo.gl/752aaoEsEKUEg8uJ6",
+            "hidden": false,
+            "selected": true,
+            "lastUpdated": "2025-04-14T09:49:19.864Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "tripadvisor",
+        "uniqueRandomTag": "p6q7r8s9t0",
+        "name": {
+          "en": "TripAdvisor",
+          "de": "TripAdvisor",
+          "am": "ትሪፕአድቫይዘር"
+        },
+        "review": [
+          {
+            "id": "ta1",
+            "uniqueRandomTag": "u1v2w3x4y5",
+            "name": {
+              "en": "Amanuel Gebre",
+              "de": "Amanuel Gebre",
+              "am": "አማኑኤል ገብረ"
+            },
+            "comment": {
+              "en": "As an Ethiopian living abroad, this place feels like home. The kitfo was prepared exactly how my mother makes it. The owner even recognized my Tigrinya accent!",
+              "de": "Als im Ausland lebender Äthiopier fühlt sich dieser Ort wie zu Hause an. Das Kitfo wurde genau so zubereitet, wie meine Mutter es macht. Der Besitzer erkannte sogar meinen tigrinischen Akzent!",
+              "am": "በውጭ አገር እንደምኖር ኢትዮጵያዊ ይህ ቦታ እንደ ቤት ያሰማኛል። ክትፎው እንደ እናቴ እንደምታደርገው በትክክል ተዘጋጅቷል። የማከሚያው ባለቤት የትግርኛ አጣራዬን እንኳ አወቀ!"
+            },
+            "date": "2023-01-10",
+            "rating": "5",
+            "url": "https://www.tripadvisor.com/ShowUserReviews-g187422-d25297389-r877705692-Addis_Abeba_Restaurant-Jena_Thuringia.html",
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T15:05:23.422Z"
+          },
+          {
+            "id": "ta2",
+            "uniqueRandomTag": "z6a7b8c9d0",
+            "name": {
+              "en": "Lisa Schneider",
+              "de": "Lisa Schneider",
+              "am": "ሊሳ ሽኒደር"
+            },
+            "comment": {
+              "en": "First time trying Ethiopian food and we loved it! The staff patiently explained how to eat with injera. The honey wine was delicious. Only complaint - the restaurant was quite warm inside.",
+              "de": "Zum ersten Mal äthiopisches Essen probiert und wir haben es geliebt! Das Personal erklärte geduldig, wie man mit Injera isst. Der Honigwein war köstlich. Einziger Kritikpunkt - das Restaurant war innen ziemlich warm.",
+              "am": "ለመጀመሪያ ጊዜ የኢትዮጵያ ምግብ ሞክረናል እና ወደድነው! ሠራተኞቹ በትዕግስት እንጀራ እንዴት እንደሚበሉ አብራርተውናል። የማር ጠጅው ጣፋጭ ነበር። ብቸኛ ቅሬታ - ምግብ ቤቱ ውስጥ በጣም ሙቅ ነበር።"
+            },
+            "date": "2022-12-28",
+            "rating": "4",
+            "url": "https://www.tripadvisor.com/ShowUserReviews-g187422-d25297389-r877705692-Addis_Abeba_Restaurant-Jena_Thuringia.html",
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T15:05:24.832Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "yelp",
+        "uniqueRandomTag": "e1f2g3h4i5",
+        "name": {
+          "en": "Yelp",
+          "de": "Yelp",
+          "am": "የልፕ"
+        },
+        "review": [
+          {
+            "id": "yp1",
+            "uniqueRandomTag": "j6k7l8m9n0",
+            "name": {
+              "en": "Michael Cohen",
+              "de": "Michael Cohen",
+              "am": "ማይክል ኮሄን"
+            },
+            "comment": {
+              "en": "Came for lunch with coworkers. The veggie combo was perfect for sharing. The berbere spice level was just right - flavorful but not overwhelming. Will definitely return!",
+              "de": "Kam mit Kollegen zum Mittagessen. Das vegetarische Kombi war perfekt zum Teilen. Die Berbere-Gewürzstärke war genau richtig - geschmackvoll, aber nicht überwältigend. Komme auf jeden Fall wieder!",
+              "am": "ከሰራተኞች ጋር ለምሳ መጣሁ። የአታክልት ኮምቦው ለመጋራት ፍጹም ነበር። የበርበሬ ቅመሙ ትክክል ነበር - ጣዕም ያለው ግን አልበደለም። በእርግጥ እመለሳለሁ!"
+            },
+            "date": "2023-01-05",
+            "rating": "5",
+            "url": "https://www.yelp.com/biz/addis-abeba-restaurant-jena?rr=5",
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T15:05:26.520Z"
+          },
+          {
+            "id": "yp2",
+            "uniqueRandomTag": "o1p2q3r4s5",
+            "name": {
+              "en": "Fatima Ahmed",
+              "de": "Fatima Ahmed",
+              "am": "ፋቲማ አህመድ"
+            },
+            "comment": {
+              "en": "The fasting food options during Lent were impressive. The shiro was creamy and flavorful. However, the music was too loud for conversation.",
+              "de": "Die Fastenspeisen während der Fastenzeit waren beeindruckend. Das Shiro war cremig und geschmackvoll. Allerdings war die Musik zu laut für Unterhaltungen.",
+              "am": "በጾም አበባ ወቅት የሚገኙ የጾም ምግቦች አስደናቂ ነበሩ። ሽሮው ክሬሚ እና ጣዕም ያለው ነበር። ሆኖም ሙዚቃው ለቃለ መጠይቅ በጣም ድምጽ ከፍ ያለ ነበር።"
+            },
+            "date": "2023-03-18",
+            "rating": "3",
+            "url": "https://www.yelp.com/biz/addis-abeba-restaurant-jena?rr=5",
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T15:05:27.936Z"
+          }
+        ]
+      }
+    ]
+  }
+}

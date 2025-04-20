@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Customer reviews for our Ethiopian restaurant">
+    <title>Reviews - Ethiopian Restaurant</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="reviews-page">
+    <!-- Header will be inserted here by JavaScript -->
+    <div id="header-placeholder"></div>
+    
+    <!-- Reviews Hero Section -->
+    <section class="hero hero-sm hero-fixed-background hero-fixed-background-narrow mb-5" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/shared/shared-small-bg.jpg');">
+        <div class="container">
+            <div class="hero-content text-center text-white">
+                <h1 class="text-white fw-bold fs-2 mb-3" data-translate="reviewsTitle">Customer Reviews</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html" data-translate="navHome">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page" data-translate="navReviews">Reviews</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Reviews Section -->
+    <section class="section">
+        <div class="container">           
+            <div id="reviews-placeholder">
+                <!-- reviews will be loaded dynamically from reviews.xml -->
+                <div class="text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2" data-translate="loadingReviews">Loading menu...</p>
+                </div>
+            </div>
+
+             <!-- <div class="equal-width-buttons">  -->
+            <div class="d-flex flex-wrap justify-content-center gap-4  mb-5">     
+                <a href="https://maps.app.goo.gl/eAKpr5GNiErCJp1s8?action=write_a_review"  target="_blank" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="google-map-review" data-translate="reviewGoogleMap">Write Google Review</a>
+                <a href="https://www.tripadvisor.com/UserReviewEdit-g187422-d25297389-Addis_Abeba_Restaurant-Jena_Thuringia.html"  target="_blank" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="tripadvisor-review" data-translate="reviewTripAdvisor">Write TripAdvisor Review</a>
+                <a href="https://www.yelp.com/biz/addis-abeba-restaurant-jena?rr=5"  target="_blank" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="yelp-review" data-translate="reviewYelp">Write Yelp Review</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Add Review Modal -->
+    <div class="modal fade" id="reviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" data-translate="addYourReview">Add Your Review</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="review-form">
+                        <div class="mb-3">
+                            <label for="reviewer-name" class="form-label" data-translate="yourName">Your Name</label>
+                            <input type="text" class="form-control" id="reviewer-name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="reviewer-email" class="form-label" data-translate="yourEmail">Your Email</label>
+                            <input type="email" class="form-control" id="reviewer-email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" data-translate="yourRating">Your Rating</label>
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill" data-rating="1"></i>
+                                <i class="bi bi-star-fill" data-rating="2"></i>
+                                <i class="bi bi-star-fill" data-rating="3"></i>
+                                <i class="bi bi-star-fill" data-rating="4"></i>
+                                <i class="bi bi-star-fill" data-rating="5"></i>
+                            </div>
+                            <input type="hidden" id="review-rating" value="0">
+                        </div>
+                        <div class="mb-3">
+                            <label for="review-text" class="form-label" data-translate="yourReview">Your Review</label>
+                            <textarea class="form-control" id="review-text" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-translate="submitReview">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer will be inserted here by JavaScript -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Shared JS -->
+    <script src="assets/js/shared.js"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        // Insert header and footer
+        /*
+        document.getElementById('header-placeholder').innerHTML = generateHeader();
+        document.getElementById('footer-placeholder').innerHTML = generateFooter();
+        */
+    </script>
+</body>
+</html>

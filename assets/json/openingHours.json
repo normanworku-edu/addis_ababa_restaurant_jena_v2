@@ -1,0 +1,77 @@
+{
+    "createDate": "2024-01-01T00:00:00Z",
+    "lastUpdated": "2025-04-16T10:52:15.225Z",
+    "days": [
+        {
+            "name": {
+                "en": "Monday",
+                "de": "Montag",
+                "am": "ሰኞ"
+            },
+            "openingHours": [
+                "17:00 - 17:00"
+            ],
+            "isClosed": false
+        },
+        {
+            "name": {
+                "en": "Tuesday",
+                "de": "Dienstag",
+                "am": "ማክሰኞ"
+            },
+            "openingHours": [
+                "17:00 - 22:00"
+            ],
+            "isClosed": false
+        },
+        {
+            "name": {
+                "en": "Wednesday",
+                "de": "Mittwoch",
+                "am": "ረቡዕ"
+            },
+            "openingHours": [
+                "17:00 - 22:10"
+            ],
+            "isClosed": false
+        },
+        {
+            "name": {
+                "en": "Thursday",
+                "de": "Donnerstag",
+                "am": "ሐሙስ"
+            },
+            "openingHours": [],
+            "isClosed": true
+        },
+        {
+            "name": {
+                "en": "Friday",
+                "de": "Freitag",
+                "am": "አርብ"
+            },
+            "openingHours": [],
+            "isClosed": true
+        },
+        {
+            "name": {
+                "en": "Saturday",
+                "de": "Samstag",
+                "am": "ቅዳሜ"
+            },
+            "openingHours": [],
+            "isClosed": true
+        },
+        {
+            "name": {
+                "en": "Sunday",
+                "de": "Sonntag",
+                "am": "እሁድ"
+            },
+            "openingHours": [
+                "17:00 - 17:00"
+            ],
+            "isClosed": false
+        }
+    ]
+}

@@ -1,0 +1,1232 @@
+{
+  "createDate": "2024-01-01T00:00:00Z",
+  "lastUpdated": "2025-04-14T12:06:51.837Z",
+  "menu": {
+    "category": [
+      {
+        "categoryId": "non-veg",
+        "uniqueRandomTag": "7Kj9nM2pQ4",
+        "name": {
+          "en": "Non-Vegetarian Dishes",
+          "de": "Gerichte mit Fleisch",
+          "am": "ስጋ ያለው ምግብ"
+        },
+        "dish": [
+          {
+            "dishId": "1",
+            "uniqueRandomTag": "Db4hN0sS6b",
+            "name": {
+              "en": "Doro Wot55",
+              "de": "Doro Wot",
+              "am": "ዶሮ ወጥ"
+            },
+            "shortDescription": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "longDescription": {
+              "en": "Chicken in spicy sauce with Ethiopian spices, boiled egg and optional fresh cheese",
+              "de": "Hähnchen in scharfer Soße mit äthiopischen Gewürzen, gekochtem Ei und bei Wunsch mit Frischkäse",
+              "am": "ዶሮ በሚጥሚጣ ስስ ከኢትዮጵያዊ ቅመሞች፣ የተቀቀለ እንቁላል እና ከሚፈለገ አዲስ ፎርማጆ ጋር"
+            },
+            "price": "8.50",
+            "imagefile": "",
+            "hidden": false,
+            "selected": true,
+            "allergens": [
+              "9"
+            ],
+            "additives": [
+              "f"
+            ],
+            "lastUpdated": "2025-04-14T12:06:51.837Z",
+            "price2": "11"
+          },
+          {
+            "dishId": "2",
+            "uniqueRandomTag": "Yw4hN9mK6b",
+            "name": {
+              "en": "Kay Wot",
+              "de": "Kay Wot",
+              "am": "ካይ ወጥ"
+            },
+            "shortDescription": {
+              "en": "Spicy beef stew",
+              "de": "Scharfes Rindfleisch-Eintopf",
+              "am": "ሚጥሚጣ የበሬ ስጋ ምግብ"
+            },
+            "longDescription": {
+              "en": "Diced beef in spicy sauce with Ethiopian chili",
+              "de": "Zu Würfeln geschnittenes Rindfleisch in scharfer Soße mit äthiopischem Chilli",
+              "am": "የተከተፈ በሬ ስጋ በሚጥሚጣ ስስ ከኢትዮጵያዊ ቺሊ"
+            },
+            "price": "8.50",
+            "imagefile": "shiro.jpg",
+            "hidden": false,
+            "selected": true,
+            "allergens": [
+              "9"
+            ],
+            "additives": [
+              "g"
+            ],
+            "lastUpdated": "2025-04-14T11:45:11.058Z"
+          },
+          {
+            "dishId": "3",
+            "uniqueRandomTag": "Zp7vL4mN8k",
+            "name": {
+              "en": "Ye Beg Wot",
+              "de": "Ye Beg Wot",
+              "am": "የበግ ወጥ"
+            },
+            "shortDescription": {
+              "en": "Spicy lamb stew",
+              "de": "Scharfes Lammfleisch-Eintopf",
+              "am": "ሚጥሚጣ የበግ ስጋ ምግብ"
+            },
+            "longDescription": {
+              "en": "Diced lamb in spicy sauce with Ethiopian chili",
+              "de": "Zu Würfeln geschnittenes Schaffleisch in scharfer Soße mit äthiopischem Chilli",
+              "am": "የተከተፈ በግ ስጋ በሚጥሚጣ ስስ ከኢትዮጵያዊ ቺሊ"
+            },
+            "price": "8.50",
+            "imagefile": "shiro.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": true,
+            "lastUpdated": "2025-04-10T21:35:58.016Z",
+            "additives": []
+          },
+          {
+            "dishId": "4",
+            "uniqueRandomTag": "Xk9mT5pL7v",
+            "name": {
+              "en": "Bozena Shiro",
+              "de": "Bozena Shiro",
+              "am": "ቦዘና ሽሮ"
+            },
+            "shortDescription": {
+              "en": "Mild chickpea stew with beef",
+              "de": "Milde Kichererbsensoße mit Rindfleisch",
+              "am": "ለስላሳ የሽሮ ምግብ ከበሬ ስጋ ጋር"
+            },
+            "longDescription": {
+              "en": "Mild sauce made from chickpea flour with beef pieces and onions",
+              "de": "Milde Soße aus Kichererbsenmehl mit Rindfleischstückchen und Zwiebeln",
+              "am": "ለስላሳ ስስ ከሽሮ ዱቄት፣ ከበሬ ስጋ ቁርጥራጮች እና ከሽንኩርት ጋር"
+            },
+            "price": "9.50",
+            "imagefile": "menu_bozena_shiro.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "5",
+            "uniqueRandomTag": "Wm8kL9pT3v",
+            "name": {
+              "en": "Yebere Tibs",
+              "de": "Yebere Tibs",
+              "am": "የበሬ ጥብስ"
+            },
+            "shortDescription": {
+              "en": "Sauteed beef with spices",
+              "de": "Gebratenes Rindfleisch mit Gewürzen",
+              "am": "የተጠበሰ በሬ ስጋ ከቅመሞች ጋር"
+            },
+            "longDescription": {
+              "en": "Sauteed beef pieces with Ethiopian spices, tomatoes, onions, green chili and rosemary",
+              "de": "Gebratene Rindfleischstückchen mit äthiopischen Gewürzen, Tomaten, Zwiebeln, grüner Chilli und Rosmarin",
+              "am": "የተጠበሰ በሬ ስጋ ቁርጥራጮች ከኢትዮጵያዊ ቅመሞች፣ ከቲማቲም፣ ከሽንኩርት፣ ከአረንጓዴ ቺሊ እና ከሮዝማሪን ጋር"
+            },
+            "price": "9.50",
+            "imagefile": "menu_yebere_tibs.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "6",
+            "uniqueRandomTag": "Tn5vL8kW3p",
+            "name": {
+              "en": "Yebeg Tibs",
+              "de": "Yebeg Tibs",
+              "am": "የበግ ጥብስ"
+            },
+            "shortDescription": {
+              "en": "Sauteed lamb with spices",
+              "de": "Gebratenes Lammfleisch mit Gewürzen",
+              "am": "የተጠበሰ በግ ስጋ ከቅመሞች ጋር"
+            },
+            "longDescription": {
+              "en": "Sauteed lamb pieces in butter with Ethiopian spices, tomatoes, onions, green chili and rosemary",
+              "de": "Gebratene Schaffleischstückchen in Butter mit äthiopischen Gewürzen, Tomaten, Zwiebeln, grüner Chilli und Rosmarin",
+              "am": "የተጠበሰ በግ ስጋ ቁርጥራጮች በቅቤ ከኢትዮጵያዊ ቅመሞች፣ ከቲማቲም፣ ከሽንኩርት፣ ከአረንጓዴ ቺሊ እና ከሮዝማሪን ጋር"
+            },
+            "price": "9.00",
+            "imagefile": "menu_yebeg_tibs.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "7",
+            "uniqueRandomTag": "Lk9mT5vW8p",
+            "name": {
+              "en": "Ruz Be Siga",
+              "de": "Ruz Be Siga",
+              "am": "ሩዝ በስጋ"
+            },
+            "shortDescription": {
+              "en": "Rice with beef",
+              "de": "Reis mit Rindfleisch",
+              "am": "ሩዝ ከበሬ ስጋ ጋር"
+            },
+            "longDescription": {
+              "en": "Rice or couscous with sliced beef pieces and mild sauce",
+              "de": "Reis oder Couscous mit geschnittenen Rindfleischstückchen und milder Soße",
+              "am": "ሩዝ ወይም ኩስኩስ ከተከተፉ በሬ ስጋ ቁርጥራጮች እና ከለስላሳ ስስ ጋር"
+            },
+            "price": "8.50",
+            "imagefile": "menu_ruz_besiga.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "11",
+            "uniqueRandomTag": "Mp7vL9kT5w",
+            "name": {
+              "en": "Beyeaynet",
+              "de": "Beyeaynet",
+              "am": "በየእንት"
+            },
+            "shortDescription": {
+              "en": "Mixed meat platter",
+              "de": "Gemischter Fleischteller",
+              "am": "የተቀላቀለ የስጋ ሳህን"
+            },
+            "longDescription": {
+              "en": "Sampler plate with various meat sauces",
+              "de": "Probierteller mit verschiedenen Fleischsoßen",
+              "am": "የሙከራ ሳህን ከተለያዩ የስጋ ስስዎች ጋር"
+            },
+            "price": "20.00",
+            "imagefile": "yeatekilt_beyanetu.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "NA",
+            "uniqueRandomTag": "S52IdoUNsi",
+            "name": {
+              "en": "New dish with img",
+              "de": "New dish with img",
+              "am": "New dish with img"
+            },
+            "shortDescription": {
+              "en": "new dish with img",
+              "de": "new dish with img",
+              "am": "new dish with img"
+            },
+            "longDescription": {
+              "en": "new dish with img",
+              "de": "new dish with img",
+              "am": "new dish with img"
+            },
+            "price": "332.98",
+            "imagefile": "shiro.jpg",
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-13T20:35:47.595Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "veg",
+        "uniqueRandomTag": "Bt5zL8wP3n",
+        "name": {
+          "en": "Vegetarian Dishes",
+          "de": "Vegetarische Gerichte",
+          "am": "አታክልት ምግብ"
+        },
+        "dish": [
+          {
+            "dishId": "1",
+            "uniqueRandomTag": "Qc7vH4jM9k",
+            "name": {
+              "en": "Alicha",
+              "de": "Alicha",
+              "am": "አሊቻ"
+            },
+            "shortDescription": {
+              "en": "Vegetable dish",
+              "de": "Gemüsegericht",
+              "am": "አታክልት ምግብ"
+            },
+            "longDescription": {
+              "en": "Dish made with cabbage, eggplant, carrots and onions",
+              "de": "Gericht aus Weißkohl, Aubergine, Möhren und Zwiebeln",
+              "am": "ከጎመን፣ ባሮንጌ፣ ካሮት እና ሽንኩርት የተሰራ ምግብ"
+            },
+            "price": "8.50",
+            "imagefile": "menu_alicha.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "2",
+            "uniqueRandomTag": "Jm5vL8kT3p",
+            "name": {
+              "en": "Shiro",
+              "de": "Shiro",
+              "am": "ሽሮ"
+            },
+            "shortDescription": {
+              "en": "Chickpea stew",
+              "de": "Kichererbsen-Eintopf",
+              "am": "የሽሮ ምግብ"
+            },
+            "longDescription": {
+              "en": "Mild sauce made from chickpea flour with onions, tomatoes and salad",
+              "de": "Milde Soße aus Kichererbsenmehl, Zwiebeln, Tomaten und Salat",
+              "am": "ለስላሳ ስስ ከሽሮ ዱቄት፣ ከሽንኩርት፣ ከቲማቲም እና ከሰላጣ ጋር"
+            },
+            "price": "8.00",
+            "imagefile": "menu_shiro.jpg",
+            "hidden": false,
+            "selected": false,
+            "allergens": [],
+            "additives": [],
+            "lastUpdated": "2025-04-14T10:23:46.335Z"
+          },
+          {
+            "dishId": "3",
+            "uniqueRandomTag": "Wk9mT5vL8p",
+            "name": {
+              "en": "Messir Wot",
+              "de": "Messir Wot",
+              "am": "ምስር ወጥ"
+            },
+            "shortDescription": {
+              "en": "Lentil stew (mildly spicy)",
+              "de": "Linseneintopf (leicht scharf)",
+              "am": "የምስር ምግብ (ትንሽ ሚጥሚጣ)"
+            },
+            "longDescription": {
+              "en": "Ethiopian lentil dish with mild spices",
+              "de": "Äthiopisches Linsengericht mit milden Gewürzen",
+              "am": "የኢትዮጵያ የምስር ምግብ ከለስላሳ ቅመሞች ጋር"
+            },
+            "price": "8.00",
+            "imagefile": "menu_yemisir_wot.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "4",
+            "uniqueRandomTag": "Lk8mT5vW9p",
+            "name": {
+              "en": "Ruz Beatekilt",
+              "de": "Ruz Beatekilt",
+              "am": "ሩዝ በአታክልት"
+            },
+            "shortDescription": {
+              "en": "Rice with vegetables",
+              "de": "Reis mit Gemüse",
+              "am": "ሩዝ ከአታክልት ጋር"
+            },
+            "longDescription": {
+              "en": "Rice or couscous with various vegetables and salad",
+              "de": "Reis oder Couscous mit verschiedenen Gemüse und Salat",
+              "am": "ሩዝ ወይም ኩስኩስ ከተለያዩ አታክልቶች እና ከሰላጣ ጋር"
+            },
+            "price": "8.00",
+            "imagefile": "menu_ruz_beatekilt.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "25",
+            "uniqueRandomTag": "Mp7vL9kT5w",
+            "name": {
+              "en": "Yeatekilt Beyeaynet",
+              "de": "Yeatekilt Beyeaynet",
+              "am": "የአታክልት በየእንት"
+            },
+            "shortDescription": {
+              "en": "Vegetarian sampler (for 1 person)",
+              "de": "Vegetarischer Probiereller (für 1 Person)",
+              "am": "የአታክልት ሙከራ ሳህን (ለ1 ሰው)"
+            },
+            "longDescription": {
+              "en": "Sampler plate with various vegetarian sauces",
+              "de": "Probierteller mit verschiedenen vegetarischen Soßen",
+              "am": "የሙከራ ሳህን ከተለያዩ የአታክልት ስስዎች ጋር"
+            },
+            "price": "17.00",
+            "imagefile": "menu_yetsom_beyeaynet.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          }
+        ]
+      },
+      {
+        "categoryId": "tasting-plates",
+        "uniqueRandomTag": "Vm2xK7pH4t",
+        "name": {
+          "en": "Tasting Plates",
+          "de": "Probierplatten",
+          "am": "የሙከራ ሳህኖች"
+        },
+        "dish": [
+          {
+            "dishId": "41",
+            "uniqueRandomTag": "Xp8vR5tL3w",
+            "name": {
+              "en": "Mahiberawi for 2 Persons",
+              "de": "Mahiberawi für 2 Personen",
+              "am": "ማህበራዊ ለ2 ሰዎች"
+            },
+            "shortDescription": {
+              "en": "Mixed meat and veg platter (2 persons)",
+              "de": "Gemischte Fleisch- und Gemüseplatte (2 Personen)",
+              "am": "የተቀላቀለ ስጋ እና አታክልት ሳህን (2 ሰዎች)"
+            },
+            "longDescription": {
+              "en": "Sampler plate with various meat and vegetarian sauces",
+              "de": "Probierteller mit verschiedenen Fleisch- und vegetarischen Soßen",
+              "am": "የሙከራ ሳህን ከተለያዩ የስጋ እና የአታክልት ስስዎች ጋር"
+            },
+            "price": "39.00",
+            "imagefile": "menu_mahiberawi.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "42",
+            "uniqueRandomTag": "Yw4hN9mK6b",
+            "name": {
+              "en": "Mahiberawi for 4 Persons",
+              "de": "Mahiberawi für 4 Personen",
+              "am": "ማህበራዊ ለ4 ሰዎች"
+            },
+            "shortDescription": {
+              "en": "Mixed meat and veg platter (4 persons)",
+              "de": "Gemischte Fleisch- und Gemüseplatte (4 Personen)",
+              "am": "የተቀላቀለ ስጋ እና አታክልት ሳህን (4 ሰዎች)"
+            },
+            "longDescription": {
+              "en": "Sampler plate with various meat and vegetarian sauces",
+              "de": "Probierteller mit verschiedenen Fleisch- und vegetarischen Soßen",
+              "am": "የሙከራ ሳህን ከተለያዩ የስጋ እና የአታክልት ስስዎች ጋር"
+            },
+            "price": "74.00",
+            "imagefile": "menu_mahiberawi.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "43",
+            "uniqueRandomTag": "Zp7vL4mN8k",
+            "name": {
+              "en": "Vegetarian Sampler for 2",
+              "de": "Vegetarischer Probiereller für 2",
+              "am": "የአታክልት ሙከራ ለ2"
+            },
+            "shortDescription": {
+              "en": "Vegetarian platter (2 persons)",
+              "de": "Vegetarische Platte (2 Personen)",
+              "am": "የአታክልት ሳህን (2 ሰዎች)"
+            },
+            "longDescription": {
+              "en": "Sampler plate with various vegetarian sauces",
+              "de": "Probierteller mit verschiedenen vegetarischen Soßen",
+              "am": "የሙከራ ሳህን ከተለያዩ የአታክልት ስስዎች ጋር"
+            },
+            "price": "33.00",
+            "imagefile": "menu_yetsom_beyeaynet.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "44",
+            "uniqueRandomTag": "Xk9mT5pL7v",
+            "name": {
+              "en": "Vegetarian Sampler for 4",
+              "de": "Vegetarischer Probiereller für 4",
+              "am": "የአታክልት ሙከራ ለ4"
+            },
+            "shortDescription": {
+              "en": "Vegetarian platter (4 persons)",
+              "de": "Vegetarische Platte (4 Personen)",
+              "am": "የአታክልት ሳህን (4 ሰዎች)"
+            },
+            "longDescription": {
+              "en": "Sampler plate with various vegetarian sauces",
+              "de": "Probierteller mit verschiedenen vegetarischen Soßen",
+              "am": "የሙከራ ሳህን ከተለያዩ የአታክልት ስስዎች ጋር"
+            },
+            "price": "63.00",
+            "imagefile": "menu_yetsom_beyeaynet.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          }
+        ]
+      },
+      {
+        "categoryId": "desserts",
+        "uniqueRandomTag": "Zs9cR6bN8w",
+        "name": {
+          "en": "Desserts",
+          "de": "Desserts",
+          "am": "የምግብ ማብቂያ"
+        },
+        "dish": [
+          {
+            "dishId": "81",
+            "uniqueRandomTag": "Xp8vR5tL3w",
+            "name": {
+              "en": "Yogurt with Honey",
+              "de": "Joghurt mit Honig",
+              "am": "የጥምር ከማር ጋር"
+            },
+            "shortDescription": {
+              "en": "Yogurt dessert",
+              "de": "Joghurt Dessert",
+              "am": "የጥምር ምከራ"
+            },
+            "longDescription": {
+              "en": "Natural yogurt with honey, walnuts and hazelnut brittle",
+              "de": "Naturjoghurt mit Honig, Walnüssen und Haselnusskrokant",
+              "am": "ተፈጥሯዊ የጥምር ከማር፣ ከወይራ ፍሬ እና ከሄዝልናት ብራክሌት ጋር"
+            },
+            "price": "6.50",
+            "imagefile": "menu_joghort_honig.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "82",
+            "uniqueRandomTag": "Yw4hN9mK6b",
+            "name": {
+              "en": "Yogurt with Cherries",
+              "de": "Joghurt mit Kirschen",
+              "am": "የጥምር ከቼሪ ጋር"
+            },
+            "shortDescription": {
+              "en": "Yogurt dessert",
+              "de": "Joghurt Dessert",
+              "am": "የጥምር ምከራ"
+            },
+            "longDescription": {
+              "en": "Natural yogurt with cherries, walnuts and hazelnut brittle",
+              "de": "Naturjoghurt mit Kirschen, Walnüssen und Haselnusskrokant",
+              "am": "ተፈጥሯዊ የጥምር ከቼሪ፣ ከወይራ ፍሬ እና ከሄዝልናት ብራክሌት ጋር"
+            },
+            "price": "6.50",
+            "imagefile": "menu_joghort_kirche.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          }
+        ]
+      },
+      {
+        "categoryId": "hot-drinks",
+        "uniqueRandomTag": "Hf5mT3qL9p",
+        "name": {
+          "en": "Hot Drinks",
+          "de": "Warme Getränke",
+          "am": "ሙቅ መጠጦች"
+        },
+        "dish": [
+          {
+            "dishId": "101",
+            "uniqueRandomTag": "Xp8vR5tL3w",
+            "name": {
+              "en": "Ethiopian Coffee for 1/2 Person",
+              "de": "Buna für 1/2 Person",
+              "am": "ቡና ለ1/2 ሰው"
+            },
+            "shortDescription": {
+              "en": "Traditional coffee",
+              "de": "Traditioneller Kaffee",
+              "am": "ባህላዊ ቡና"
+            },
+            "longDescription": {
+              "en": "Traditional Ethiopian coffee served in an Ethiopian coffee pot",
+              "de": "Traditioneller äthiopischer Kaffee serviert in einer äthiopischen Kaffekanne",
+              "am": "ባህላዊ ኢትዮጵያዊ ቡና በኢትዮጵያዊ ቡና አቀባይ የተሰራ"
+            },
+            "price": "4.60",
+            "price2": "7.80",
+            "imagefile": "menu_buna_for_1_person.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "102",
+            "uniqueRandomTag": "Yw4hN9mK6b",
+            "name": {
+              "en": "Ethiopian Macchiato (Single/Double)",
+              "de": "Äthiopischer Machiato Einfach/Doppelt",
+              "am": "ኢትዮጵያዊ ማኪያቶ (ነጠላ/ድርብ)"
+            },
+            "shortDescription": {
+              "en": "Coffee with milk",
+              "de": "Kaffee mit Milch",
+              "am": "ቡና ከወተት ጋር"
+            },
+            "longDescription": {
+              "en": "Ethiopian coffee with milk",
+              "de": "Äthiopischer Kaffee mit Milch",
+              "am": "ኢትዮጵያዊ ቡና ከወተት ጋር"
+            },
+            "price": "3.20",
+            "price2": "4.30",
+            "imagefile": "menu_machiato.jpg",
+            "allergens": [
+              "1",
+              "2",
+              "3"
+            ],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "103",
+            "uniqueRandomTag": "Zp7vL4mN8k",
+            "name": {
+              "en": "Espresso (Single/Double)",
+              "de": "Espresso Einfach/Doppelt",
+              "am": "ኢስፕሬሶ (ነጠላ/ድርብ)"
+            },
+            "shortDescription": {
+              "en": "Strong coffee",
+              "de": "Starker Kaffee",
+              "am": "ጠንካራ ቡና"
+            },
+            "longDescription": {
+              "en": "Single espresso",
+              "de": "Espresso Einfach",
+              "am": "ነጠላ ኢስፕሬሶ"
+            },
+            "price": "2.90",
+            "price2": "3.90",
+            "imagefile": "menu_espresso.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "104",
+            "uniqueRandomTag": "Xk9mT5pL7v",
+            "name": {
+              "en": "Chai Tea",
+              "de": "Chai",
+              "am": "ጫይ ሻይ"
+            },
+            "shortDescription": {
+              "en": "Spiced tea",
+              "de": "Gewürztee",
+              "am": "በቅመም የተደረቀ ሻይ"
+            },
+            "longDescription": {
+              "en": "Black tea with spices",
+              "de": "Schwarztee mit Gewürzen",
+              "am": "ጥቁር ሻይ ከቅመሞች ጋር"
+            },
+            "price": "3.20",
+            "imagefile": "menu_tea.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "105",
+            "uniqueRandomTag": "Wm8kL9pT3v",
+            "name": {
+              "en": "Ginger Chai",
+              "de": "Ingwer Chai",
+              "am": "አጅንግ ጫይ"
+            },
+            "shortDescription": {
+              "en": "Ginger tea",
+              "de": "Ingwertee",
+              "am": "አጅንግ ሻይ"
+            },
+            "longDescription": {
+              "en": "With fresh ginger",
+              "de": "Mit frischem Ingwer",
+              "am": "ከቅርፅት አጅንግ ጋር"
+            },
+            "price": "3.50",
+            "imagefile": "menu_gingar_tea.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "106",
+            "uniqueRandomTag": "Tn5vL8kW3p",
+            "name": {
+              "en": "Chai Espresso",
+              "de": "Chai Espries",
+              "am": "ጫይ ኢስፕሬሶ"
+            },
+            "shortDescription": {
+              "en": "Tea with coffee",
+              "de": "Tee mit Kaffee",
+              "am": "ሻይ ከቡና ጋር"
+            },
+            "longDescription": {
+              "en": "Black tea with coffee",
+              "de": "Schwarztee mit Kaffee",
+              "am": "ጥቁር ሻይ ከቡና ጋር"
+            },
+            "price": "3.50",
+            "imagefile": "menu_tea_coffee_esprise.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "107",
+            "uniqueRandomTag": "Lk9mT5vW8p",
+            "name": {
+              "en": "House Tea",
+              "de": "Haustee",
+              "am": "የቤት ሻይ"
+            },
+            "shortDescription": {
+              "en": "Special spiced tea",
+              "de": "Spezieller Gewürztee",
+              "am": "ልዩ ቅመም ሻይ"
+            },
+            "longDescription": {
+              "en": "Ginger, oranges, black tea, honey, 4cl rum",
+              "de": "Ingwer, Orangen, Schwarztee, Honig, 4cl Rum",
+              "am": "አጅንግ፣ አረንጓዴ፣ ጥቁር ሻይ፣ ማር፣ 4cl ሩም"
+            },
+            "price": "7.80",
+            "imagefile": "menu_house_tea.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          }
+        ]
+      },
+      {
+        "categoryId": "soft-drinks",
+        "uniqueRandomTag": "Jn7kW4xB2v",
+        "name": {
+          "en": "Soft Drinks",
+          "de": "Alkoholfreie Getränke",
+          "am": "አልኮል የሌለው መጠጦች"
+        },
+        "dish": [
+          {
+            "dishId": "108",
+            "uniqueRandomTag": "Xp8vR5tL3w",
+            "name": {
+              "en": "Mineral Water (Still / Classic)",
+              "de": "Mineral Wasser (Still / Classic)",
+              "am": "ማይነራል ውሃ (እርጥበት የሌለው/ክላሲክ)"
+            },
+            "shortDescription": {
+              "en": "Mineral water",
+              "de": "Mineralwasser",
+              "am": "ማይነራል ውሃ"
+            },
+            "longDescription": {
+              "en": "Mineral water (Still / Classic) (0.2l/ 0.4l/ Bottle)",
+              "de": "Mineral Wasser (Still / Classic) (0.2l/ 0,4l/ Flasche)",
+              "am": "ማይነራል ውሃ (እርጥበት የሌለው/ክላሲክ) (0.2ሊ/ 0.4ሊ/ ባልዲን)"
+            },
+            "price": "2.70",
+            "price2": "4.30",
+            "price3": "7.60",
+            "imagefile": "menu_miniral_water.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "109",
+            "uniqueRandomTag": "Yw4hN9mK6b",
+            "name": {
+              "en": "Coca Cola / Sprite / Fanta",
+              "de": "Coca Cola / Sprite / Fanta",
+              "am": "ኮካ ኮላ/ስፕራይት/ፋንታ"
+            },
+            "shortDescription": {
+              "en": "Soft drinks",
+              "de": "Erfrischungsgetränke",
+              "am": "ሶፍት ድሪንክስ"
+            },
+            "longDescription": {
+              "en": "Coca Cola (0.2l)",
+              "de": "Coca Cola (0,2l)",
+              "am": "ኮካ ኮላ (0.2ሊ)"
+            },
+            "price": "3.00",
+            "price2": "4.90",
+            "imagefile": "menu_coca.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "110",
+            "uniqueRandomTag": "Zp7vL4mN8k",
+            "name": {
+              "en": "Juice (Apple / Orange / Cherry / Multivitamin)",
+              "de": "Saft (Apfel / Orangen / Kirsch / Multivitamin)",
+              "am": "ጭማቂ (አፕል / ኦሬንጅ / ቸሪ / ማሊቲቪታሚን)"
+            },
+            "shortDescription": {
+              "en": "Fresh juices",
+              "de": "Frische Säfte",
+              "am": "ትኩስ ጭማቂዎች"
+            },
+            "longDescription": {
+              "en": "Juice (Apple / Orange / Cherry / Multivitamin) (0.2l/ 0.4l)",
+              "de": "Saft (Apfel / Orangen / Kirsch / Multivitamin) (0,2l/ 0.4l)",
+              "am": "ጭማቂ (አፕል / ኦሬንጅ / ቸሪ / ማሊቲቪታሚን) (0.2ሊ/0.4ሊ)"
+            },
+            "price": "3.00",
+            "price2": "4.90",
+            "imagefile": "menu_saft.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "111",
+            "uniqueRandomTag": "Xk9mT5pL7v",
+            "name": {
+              "en": "Juice Spritzers",
+              "de": "Saftschorlen",
+              "am": "ጭማቂ ስፕሪተር"
+            },
+            "shortDescription": {
+              "en": "Juice with sparkling water",
+              "de": "Saft mit Sprudelwasser",
+              "am": "ጭማቂ ከካርቦናዊ ውሃ ጋር"
+            },
+            "longDescription": {
+              "en": "Juice spritzers (Apple / Orange / Cherry / Multivitamin) (0.2l/ 0.4l)",
+              "de": "Saftschorlen (Apfel / Orangen / Kirsch / Multivitamin) (0,2l/ 0.4l)",
+              "am": "ጭማቂ ስፕሪተር (አፕል / ኦሬንጅ / ቸሪ / ማሊቲቪታሚን) (0.2ሊ/0.4ሊ)"
+            },
+            "price": "3.00",
+            "price2": "4.90",
+            "imagefile": "menu_saft.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          }
+        ]
+      },
+      {
+        "categoryId": "alcoholic-drinks",
+        "uniqueRandomTag": "Gd3pS8yM5h",
+        "name": {
+          "en": "Alcoholic Drinks",
+          "de": "Bier, Wein and Spirituosen",
+          "am": "ቢራ፣ ወይን እና መጠጥ"
+        },
+        "dish": [
+          {
+            "dishId": "112",
+            "uniqueRandomTag": "Xp8vR5tL3w",
+            "name": {
+              "en": "Ethiopian Beer",
+              "de": "Äthiopisches Bier",
+              "am": "ኢትዮጵያዊት ቢራ"
+            },
+            "shortDescription": {
+              "en": "Ethiopian beer",
+              "de": "Äthiopisches Bier",
+              "am": "ኢትዮጵያዊት ቢራ"
+            },
+            "longDescription": {
+              "en": "Glass 0.3l",
+              "de": "Glas 0,3l",
+              "am": "ግልጽ 0.3ሊ"
+            },
+            "price": "5.90",
+            "imagefile": "menu_beer_glass.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "113",
+            "uniqueRandomTag": "Yw4hN9mK6b",
+            "name": {
+              "en": "German Beers",
+              "de": "Bier (Augustiner Helles / Lammsbräu / Hefeweizen / Hefeweizen Dunkel / Radler)",
+              "am": "ጀርመናዊ ቢራዎች"
+            },
+            "shortDescription": {
+              "en": "German beer selection",
+              "de": "Deutsche Biersorten",
+              "am": "ጀርመናዊ ቢራ ምርጫ"
+            },
+            "longDescription": {
+              "en": "Beer (Augustiner Helles / Lammsbräu / Hefeweizen / Dark Hefeweizen / Radler)",
+              "de": "Bier (Augustiner Helles / Lammsbräu / Hefeweizen / Hefeweizen Dunkel / Radler)",
+              "am": "ቢራ (ኦገስቲነር ሄለስ / ላምስብሮይ/ሄፈቫይዜን / ጨለማ ሄፈቫይዜን / ራድለር)"
+            },
+            "price": "5.20",
+            "imagefile": "menu_beer_glass.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "114",
+            "uniqueRandomTag": "Zp7vL4mN8k",
+            "name": {
+              "en": "Non-Alcoholic Beer",
+              "de": "Bier Alkoholfrei (Becks Alkoholfrei / Hefeweizen Alkoholfrei)",
+              "am": "አልኮል የሌለው ቢራ"
+            },
+            "shortDescription": {
+              "en": "Alcohol-free beer",
+              "de": "Alkoholfreies Bier",
+              "am": "አልኮል የሌለው ቢራ"
+            },
+            "longDescription": {
+              "en": "Becks Non-Alcoholic",
+              "de": "Becks Alkoholfrei",
+              "am": "ቤክስ አልኮል የሌለው"
+            },
+            "price": "5.20",
+            "imagefile": "menu_beer_glass.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "115",
+            "uniqueRandomTag": "Xk9mT5pL7v",
+            "name": {
+              "en": "Ethiopian Wine (Dry)",
+              "de": "Äthiopischer Wein (trocken)",
+              "am": "ኢትዮጵያዊ ወይን (ደረቅ)"
+            },
+            "shortDescription": {
+              "en": "Ethiopian dry wine",
+              "de": "Äthiopischer trockener Wein",
+              "am": "ኢትዮጵያዊ ደረቅ ወይን"
+            },
+            "longDescription": {
+              "en": "Ethiopian wine (dry) (0.25l/ Bottle)",
+              "de": "Äthiopischer Wein (trocken) (0,25l/ Flasche)",
+              "am": "ኢትዮጵያዊ ወይን (ደረቅ) (0.25ሊ/ ባልዲን)"
+            },
+            "price": "7.50",
+            "price2": "21.50",
+            "imagefile": "menu_red_wein.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "116",
+            "uniqueRandomTag": "Wm8kL9pT3v",
+            "name": {
+              "en": "House Wine (Red/White)",
+              "de": "Wein (Hauswein Rot/Weiß)",
+              "am": "የቤት ወይን (ቀይ/ነጭ)"
+            },
+            "shortDescription": {
+              "en": "House wine selection",
+              "de": "Hauswein Auswahl",
+              "am": "የቤት ወይን ምርጫ"
+            },
+            "longDescription": {
+              "en": "Wine (House wine Red / White dry) (0.25l/Bottle)",
+              "de": "Wein (Hauswein Rot / Weiß trocken) (0,25l/Flasche)",
+              "am": "ወይን (የቤት ቀይ/ነጭ ደረቅ) (0.25ሊ/ባልዲን)"
+            },
+            "price": "6.50",
+            "price2": "16.90",
+            "imagefile": "menu_red_wein.jpg",
+            "allergens": [],
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z",
+            "additives": []
+          },
+          {
+            "dishId": "",
+            "uniqueRandomTag": "Tn5vL8kW3p",
+            "name": {
+              "en": "new drink",
+              "de": "new drink",
+              "am": "new drink"
+            },
+            "shortDescription": {
+              "en": "new drink",
+              "de": "new drink",
+              "am": "new drink"
+            },
+            "longDescription": {
+              "en": "new drink",
+              "de": "new drink",
+              "am": "new drink"
+            },
+            "price": "111",
+            "imagefile": "menu_bozena_shiro.jpg",
+            "hidden": false,
+            "selected": false,
+            "allergens": [
+              "9"
+            ],
+            "additives": [
+              "g"
+            ],
+            "lastUpdated": "2025-04-14T12:03:22.731Z"
+          }
+        ]
+      }
+    ]
+  },
+  "allergen_mapping": {
+    "1": {
+      "en": "Cereals containing gluten",
+      "de": "Glutenhaltiges Getreide",
+      "am": "ግሉተን ያለው እህል"
+    },
+    "2": {
+      "en": "Eggs and egg products",
+      "de": "Eier und eihaltige Lebensmittel",
+      "am": "እንቁላል እና ከእንቁላል የተገኙ ምርቶች"
+    },
+    "3": {
+      "en": "Peanuts and derived products",
+      "de": "Erdnüsse und daraus gewonnene Erzeugnisse",
+      "am": "ፉርኖ እና ከፉርኖ የተገኙ ምርቶች"
+    },
+    "4": {
+      "en": "Milk and dairy products",
+      "de": "Milch und daraus gewonnene Erzeugnisse",
+      "am": "ወተት እና የወተት ምርቶች"
+    },
+    "5": {
+      "en": "Nuts",
+      "de": "Schalenfrüchte",
+      "am": "ፍራፍሬዎች"
+    },
+    "6": {
+      "en": "Mustard and derived products",
+      "de": "Senf und daraus gewonnene Erzeugnisse",
+      "am": "ሰናፍጭ እና ከሰናፍጭ የተገኙ ምርቶች"
+    },
+    "7": {
+      "en": "Sesame seeds and derived products",
+      "de": "Sesamsamen und daraus gewonnene Erzeugnisse",
+      "am": "ሰሊጥ እና ከሰሊጥ የተገኙ ምርቶች"
+    },
+    "8": {
+      "en": "Sulfur dioxide and sulfites",
+      "de": "Schwefeldioxid und Sulfite",
+      "am": "ሰልፈር ዳይኦክሳይድ እና ሰልፋይቶች"
+    },
+    "9": {
+      "en": "Fish and fish products",
+      "de": "Fisch und daraus gewonnene Erzeugnisse",
+      "am": "ዓሣ እና ከዓሣ የተገኙ ምርቶች"
+    }
+  },
+  "additive_mapping": {
+    "a": {
+      "en": "with dye(s)",
+      "de": "mit Farbstoff(en)",
+      "am": "ከቀለም ጋር"
+    },
+    "b": {
+      "en": "with antioxidant(s)",
+      "de": "mit Antioxydationsmittel",
+      "am": "ከአክሲጅን መከላከያ ጋር"
+    },
+    "c": {
+      "en": "contains quinine",
+      "de": "chininhaltig",
+      "am": "ኪኒን ይዟል"
+    },
+    "d": {
+      "en": "with sweetener(s)",
+      "de": "mit Süßungsmittel",
+      "am": "ከጣፋጭ ጋር"
+    },
+    "e": {
+      "en": "contains a source of phenylalanine",
+      "de": "enthält eine Phenylalaninquelle",
+      "am": "ፊኒላላኒን ይዟል"
+    },
+    "f": {
+      "en": "acidifier",
+      "de": "Säuerungsmittel",
+      "am": "አሲድ አድርጎ የሚያስቀመጥ"
+    },
+    "g": {
+      "en": "contains caffeine",
+      "de": "koffeinhaltig",
+      "am": "ካፌን ይዟል"
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "createDate": "2024-01-01T00:00:00Z",
+  "lastUpdated": "2025-04-14T19:18:39.241Z",
+  "lastUniqueId": 12,
+  "gallery": {
+    "category": [
+      {
+        "categoryId": "food",
+        "uniqueRandomTag": "aB3cD7eF9g",
+        "name": {
+          "en": "Foods",
+          "de": "Lebensmittel",
+          "am": "ምግቦች"
+        },
+        "image": [
+          {
+            "uniqueRandomTag": "xY2zW8vU5q",
+            "imagefile": "shiro.jpg",
+            "id": 1,
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": true,
+            "lastUpdated": "2025-04-14T16:44:23.731Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 2,
+            "uniqueRandomTag": "pL4mN9kO1j",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T19:13:49.378Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 3,
+            "uniqueRandomTag": "rT6yH2bV7n",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T19:13:48.025Z"
+          },
+          {
+            "uniqueRandomTag": "sK1dF1gH1j",
+            "id": 5,
+            "imagefile": "shiro.jpg",
+            "title": {
+              "en": "try334434343",
+              "de": "try334434343",
+              "am": "try334434343"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2025-04-14T19:13:46.081Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "restaurant",
+        "uniqueRandomTag": "qW3eR5tY7u",
+        "name": {
+          "en": "Restaurant",
+          "de": "Restaurant",
+          "am": "ምግብ ቤት"
+        },
+        "image": [
+          {
+            "imagefile": "shiro.jpg",
+            "id": 4,
+            "uniqueRandomTag": "iK8jH4gF6d",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 5,
+            "uniqueRandomTag": "oL9pM2nB4v",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 6,
+            "uniqueRandomTag": "cX1zQ8wE5r",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "event",
+        "uniqueRandomTag": "mN2bV4cX6z",
+        "name": {
+          "en": "Event",
+          "de": "Veranstaltung",
+          "am": "ክስተት"
+        },
+        "image": [
+          {
+            "imagefile": "shiro.jpg",
+            "id": 7,
+            "uniqueRandomTag": "aZ9sX3dF5g",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 8,
+            "uniqueRandomTag": "hJ7kL2pO9i",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 9,
+            "uniqueRandomTag": "yT4rE1wQ3u",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "misc",
+        "uniqueRandomTag": "fD5sG7hJ9k",
+        "name": {
+          "en": "Miscellaneous",
+          "de": "Verschiedenes",
+          "am": "የተለያዩ"
+        },
+        "image": [
+          {
+            "imagefile": "shiro.jpg",
+            "id": 10,
+            "uniqueRandomTag": "vB3nM8qW4e",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 11,
+            "uniqueRandomTag": "kL6oP9iU2y",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          },
+          {
+            "imagefile": "shiro.jpg",
+            "id": 12,
+            "uniqueRandomTag": "zX7cV1bN5m",
+            "title": {
+              "en": "Ethiopian national dish",
+              "de": "Äthiopisches Nationalgericht",
+              "am": "የኢትዮጵያ ብሔራዊ ምግብ"
+            },
+            "hidden": false,
+            "selected": false,
+            "lastUpdated": "2024-01-24T14:30:00Z"
+          }
+        ]
+      }
+    ]
+  }
+}

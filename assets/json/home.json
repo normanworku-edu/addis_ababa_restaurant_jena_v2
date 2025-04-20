@@ -1,0 +1,24 @@
+{
+    "createDate": "2024-01-01T00:00:00Z",
+    "lastUpdated": "2025-04-15T17:20:47.174Z",
+    "homeTitle": {
+        "en": "Welcome to Addis Abeba Restaurant",
+        "de": "Willkommen im Addis Abeba Restaurant",
+        "am": "እንኳን ወደ አዲስ አበባ ሬስቶራንት በደህና መጡ"
+    },
+    "homeSubtitle": {
+        "en": "Enjoy traditional Ethiopian dishes in a cozy atmosphere.",
+        "de": "Genießen Sie traditionelle äthiopische Gerichte in einer gemütlichen Atmosphäre.",
+        "am": "ባህላዊ የኢትዮጵያ ምግቦችን በምቹ አቅጣጫ ይጠቀሙ።"
+    },
+    "aboutText": {
+        "en": "Our restaurant brings the rich flavors of Ethiopia to Berlin. With traditional recipes passed down through generations, we offer a unique culinary experience. Our Injera (traditional sourdough flatbread) is made fresh daily and serves as the foundation for our delicious dishes.",
+        "de": "Unser Restaurant bringt die reichen Aromen Äthiopiens nach Berlin. Mit traditionellen Rezepten, die über Generationen weitergegeben wurden, bieten wir ein einzigartiges kulinarisches Erlebnis. Unser Injera (traditionelles Sauerteigfladenbrot) wird täglich frisch zubereitet und bildet die Grundlage für unsere köstlichen Gerichte.",
+        "am": "ምግብ ቤታችን የኢትዮጵያን ባህላዊ ጣዕም ወደ በርሊን ያመጣል። ከትውልዶች በትውልድ የተላለፈ ባህላዊ የምግብ አሰራር ጋር የተለየ የምግብ ተሞክሮ እንዲያገኙ እንቀርባለን። እንጀራችን (ባህላዊ የሳይር እንጀራ) በየቀኑ በቅርቡ ይሰራል እና ለምርጥ ምግቦቻችን መሠረት ይሆናል።"
+    },
+    "homeBackgroundImage": "assets/img/home/home-bg.jpg",
+    "aboutSectionImage": "assets/img/home/about.jpg",
+    "showSelectedDishes": true,
+    "showSelectedOffersAndNews": true,
+    "showSelectedReviews": true
+}

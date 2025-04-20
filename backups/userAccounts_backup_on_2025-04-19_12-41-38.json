@@ -1,0 +1,30 @@
+{
+    "createDate": "2024-01-01T00:00:00Z",
+    "lastUpdated": "2025-04-19T12:40:54.691Z",
+    "userAccounts": {
+        "superadmin": {
+            "password": "superadmin1",
+            "userEmail": "normanworku@gmail.com",
+            "isBlocked": false,
+            "isSuperAdmin": true
+        },
+        "admin": {
+            "password": "admin1234",
+            "userEmail": "n@f.c",
+            "isBlocked": false,
+            "isSuperAdmin": true
+        },
+        "admin2": {
+            "password": "admin123",
+            "userEmail": "n@f.c",
+            "isBlocked": false,
+            "isSuperAdmin": true
+        },
+        "admin3": {
+            "password": "admin123",
+            "userEmail": "n@f.c",
+            "isBlocked": false,
+            "isSuperAdmin": true
+        }
+    }
+}

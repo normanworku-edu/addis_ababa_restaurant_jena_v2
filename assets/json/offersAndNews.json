@@ -1,0 +1,149 @@
+{
+  "createDate": "2024-01-01T00:00:00Z",
+  "lastUpdated": "2025-04-18T17:04:06.840Z",
+  "offersAndNews": {
+    "category": [
+      {
+        "categoryId": "offers",
+        "uniqueRandomTag": "7Kp9Xm2Vn4",
+        "name": {
+          "en": "Special Offers",
+          "de": "Angebote",
+          "am": "ልዩ ቅናሾች"
+        },
+        "item": [
+          {
+            "id": "offer1",
+            "uniqueRandomTag": "Ht5Lq8Rw3Y",
+            "lastUpdated": "2025-04-18T17:03:28.927Z",
+            "title": {
+              "en": "Injera Combo Deal",
+              "de": "Injera-Kombo-Angebot",
+              "am": "እንጀራ ኮምቦ ቅናሽ"
+            },
+            "shortDescription": {
+              "en": "2 main dishes + unlimited injera for 2 people",
+              "de": "2 Hauptgerichte + unbegrenzt Injera für 2 Personen",
+              "am": "2 ዋና ምግቦች + ያልተገደበ እንጀራ ለ2 ሰዎች"
+            },
+            "longDescription": {
+              "en": "Enjoy our famous Doro Wot and Tibs with unlimited freshly made injera. Perfect for sharing! Available Mon-Wed evenings.",
+              "de": "Genießen Sie unser berühmtes Doro Wot und Tibs mit unbegrenzt frisch zubereitetem Injera. Perfekt zum Teilen! Verfügbar Mo-Mi abends.",
+              "am": "የእኛን ዝነኛ ዶሮ ወጥ እና ጥብስ ከያልተገደበ በቅርቡ የተሰራ እንጀራ ጋር ይጣፍጡ። ለመጋራት ፍጹም! ሰኞ-ማክሰኞ ምሽት ይገኛል።"
+            },
+            "date": "01.06.2023-30.06.2023",
+            "imagefile": "injera-combo.jpg",
+            "hidden": false,
+            "selected": true
+          },
+          {
+            "id": "offer2",
+            "uniqueRandomTag": "Jf6Nm9Bp4Z",
+            "lastUpdated": "2025-04-18T17:04:04.533Z",
+            "title": {
+              "en": "Coffee Ceremony Experience",
+              "de": "Kaffeezeremonie-Erlebnis",
+              "am": "ቡና �ስራ ተሞክሮ"
+            },
+            "shortDescription": {
+              "en": "Traditional coffee + dessert 15% off",
+              "de": "Traditioneller Kaffee + Dessert 15% Rabatt",
+              "am": "ባህላዊ ቡና + ጣፋጭ 15% ቅናሽ"
+            },
+            "longDescription": {
+              "en": "Experience authentic Ethiopian coffee ceremony with our special popcorn snack and homemade honey bread. Includes three rounds of coffee and traditional incense.",
+              "de": "Erleben Sie eine authentische äthiopische Kaffeezeremonie mit unserem speziellen Popcorn-Snack und hausgemachtem Honigbrot. Enthält drei Runden Kaffee und traditionellen Weihrauch.",
+              "am": "እውነተኛ የኢትዮጵያ ቡና ሥርዓት ከልዩ በተፈጨ ድንች እና ቤት ውስጥ የተሰራ ማር እንጀራ ጋር ይሞክሩ። ሶስት ዙር ቡና እና ባህላዊ ጣና ይጨምራል።"
+            },
+            "date": "01.06.2023-30.09.2023",
+            "imagefile": "coffee-ceremony.jpg",
+            "hidden": false,
+            "selected": true
+          },
+          {
+            "id": "NA",
+            "uniqueRandomTag": "xVvNgIpRUs",
+            "title": {
+              "en": "Injera Combo Deal 2",
+              "de": "Injera-Kombo-Angebot 2",
+              "am": "እንጀራ ኮምቦ ቅናሽ 2"
+            },
+            "shortDescription": {
+              "en": "Special combo deal for injera lovers.",
+              "de": "Spezialangebot für Injera-Liebhaber.",
+              "am": "ለእንጀራ ማርካቶች ልዩ ቅናሽ።"
+            },
+            "longDescription": {
+              "en": "Enjoy a variety of dishes with unlimited injera. Perfect for families and groups.",
+              "de": "Genießen Sie eine Vielzahl von Gerichten mit unbegrenztem Injera. Perfekt für Familien und Gruppen.",
+              "am": "ከያልተገደበ እንጀራ ጋር በርካታ ምግቦችን ይጣፍጡ። ለቤተሰቦች እና ቡድኖች ፍጹም!"
+            },
+            "imagefile": "Screenshot 2025-04-03 134844.png",
+            "hidden": true,
+            "selected": false,
+            "lastUpdated": "2025-04-18T17:03:36.970Z"
+          }
+        ]
+      },
+      {
+        "categoryId": "news",
+        "uniqueRandomTag": "Yw5Kd8Mj9N",
+        "name": {
+          "en": "Restaurant News",
+          "de": "Restaurant-Neuigkeiten",
+          "am": "የምግብ ቤት ዜና"
+        },
+        "item": [
+          {
+            "id": "news1",
+            "uniqueRandomTag": "Qc3Vx7Ts2P",
+            "lastUpdated": "2025-04-18T17:03:30.569Z",
+            "title": {
+              "en": "New Vegan Menu Available",
+              "de": "Neue vegane Speisekarte verfügbar",
+              "am": "አዲስ እንስሳትን የማይመገብ ምግብ ዝርዝር አሁን ይገኛል"
+            },
+            "shortDescription": {
+              "en": "10 authentic Ethiopian vegan dishes added",
+              "de": "10 authentische äthiopische vegane Gerichte hinzugefügt",
+              "am": "10 እውነተኛ የኢትዮጵያ እንስሳትን የማይመገብ ምግቦች ታክለዋል"
+            },
+            "longDescription": {
+              "en": "We're excited to introduce our new vegan menu featuring traditional fasting foods like Shiro Wot, Misir Wot, and Atakilt Wat. All dishes are prepared with 100% plant-based ingredients following Ethiopian Orthodox fasting traditions.",
+              "de": "Wir freuen uns, unsere neue vegane Speisekarte mit traditionellen Fastengerichten wie Shiro Wot, Misir Wot und Atakilt Wat vorzustellen. Alle Gerichte werden mit 100 % pflanzlichen Zutaten nach äthiopisch-orthodoxen Fastentraditionen zubereitet.",
+              "am": "ሽሮ ወጥ፣ ምስር ወጥ እና አታክልት ወጥ የመሳሰሉ ባህላዊ የጾም ምግቦችን የሚያካትት አዲስ እንስሳትን የማይመገብ ምግብ ዝርዝር ለማስተዋወቅ ተስፋ አድርገናል። ሁሉም ምግቦች ከ100% ተክሎች የተሰሩ ናቸው እና የኢትዮጵያ ኦርቶዶክስ የጾም ልማዶችን ይከተላሉ።"
+            },
+            "date": "15.05.2023",
+            "imagefile": "vegan-menu.jpg",
+            "hidden": false,
+            "selected": true
+          },
+          {
+            "id": "news2",
+            "uniqueRandomTag": "Zx8Hy5Gk1W",
+            "lastUpdated": "2025-04-18T17:04:06.840Z",
+            "title": {
+              "en": "Cultural Music Nights Every Friday",
+              "de": "Kulturelle Musikabende jeden Freitag",
+              "am": "ባህላዊ የሙዚቃ ምሽቶች እያንዳንዱ ዓርብ"
+            },
+            "shortDescription": {
+              "en": "Live traditional music while you dine",
+              "de": "Live traditionelle Musik während Sie speisen",
+              "am": "በምግብ ጊዜ ባህላዊ ሙዚቃ በቀጥታ"
+            },
+            "longDescription": {
+              "en": "Starting this June, enjoy live performances of traditional Ethiopian music featuring masinko, krar, and kebero drums every Friday night from 7-10 PM. Special menu featuring regional dishes from Tigray and Gonder available during performances.",
+              "de": "Ab diesem Juni genießen Sie Live-Aufführungen traditioneller äthiopischer Musik mit Masinko, Krar und Kebero-Trommeln jeden Freitagabend von 19-22 Uhr. Spezielle Speisekarte mit regionalen Gerichten aus Tigray und Gonder während der Aufführungen verfügbar.",
+              "am": "ከዚህ ግንቦት ጀምሮ እያንዳንዱን ዓርብ ምሽት ከ7-10 ሰዓት ባህላዊ የኢትዮጵያ ሙዚቃ ከማሲንኮ፣ ክራር እና ከበሮ በቀጥታ ይጫወታል። በሚጫወቱበት ጊዜ ከትግራይ እና ጎንደር የሚመጡ የክልል ምግቦች የሚገኙበት ልዩ የምግብ ዝርዝር።"
+            },
+            "date": "02.06.2023-31.08.2023",
+            "imagefile": "music-night.jpg",
+            "hidden": false,
+            "selected": true
+          }
+        ]
+      }
+    ]
+  }
+}

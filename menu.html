@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our authentic Ethiopian menu featuring traditional dishes">
+    <title>Menu - Ethiopian Restaurant</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+
+    
+        <!--/*temporary debugging tool to see red rectangle surrounding each element in the window. check correctness of the width*/ 
+        <style>
+          * { outline: 1px solid red !important; }
+          html { overflow-x: hidden !important; }
+        </style>
+        -->
+</head>
+<body class="menu-page">
+    <!-- Header will be inserted here by JavaScript -->
+    <div id="header-placeholder"></div> 
+    <!-- Menu Hero Section -->
+    <section class="hero hero-sm hero-fixed-background hero-fixed-background-narrow mb-5" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/shared/shared-small-bg.jpg');">
+        <div class="container">
+            <div class="hero-content text-center text-white">
+                <h1 class="text-white fw-bold fs-2 mb-3" data-translate="menuTitle">Our Menu</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html" data-translate="navHome">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page" data-translate="navMenu">Menu</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section">
+        <div class="container">
+            <!-- <div class="equal-width-buttons">  -->
+            <div class="d-flex flex-wrap justify-content-center gap-1  mb-5">     
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="non-veg" data-translate="menuNonVeg">Non-Vegetarian</a>
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="veg" data-translate="menuVeg">Vegetarian</a>
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="tasting-plates" data-translate="menuTastingPlates">Combos</a>
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="desserts" data-translate="menuDesserts">Desserts</a>
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="soft-drinks" data-translate="menuSoftDrinks">Drinks</a>
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="alcoholic-drinks" data-translate="menuAlcoholDrinks">Alcoholic Drinks</a>
+                <a href="#" class="btn btn-outline-primary btn-lg flex-fill text-center scroll-to-category" data-target="hot-drinks" data-translate="menuHotDrinks">Hot Drinks</a>
+            </div>
+            
+            <div id="menu-items-container">
+                <!-- Menu will be loaded dynamically from menu.xml -->
+                <div class="text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2" data-translate="loadingMenu">Loading menu...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Dish Modal -->
+    <div class="modal fade" id="dishModal" tabindex="-1"> <!-- aria-hidden="true" -->
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dishModalTitle">Dish Name</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" alt="" class="img-fluid mb-3" id="dishModalImage">
+                    <p id="dishModalDescription"></p>
+                    <p class="price fs-4" id="dishModalPrice"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-translate="close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer will be inserted here by JavaScript -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Shared JS -->
+    <script src="assets/js/shared.js"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        // Insert header and footer
+        document.getElementById('header-placeholder').innerHTML = generateHeader();
+       document.getElementById('footer-placeholder').innerHTML = generateFooter();
+        
+       
+        // Initialize dish modal
+        const dishModal = new bootstrap.Modal(document.getElementById('dishModal'));
+        document.getElementById('dishModal').addEventListener('show.bs.modal', function(event) {
+            const button = event.relatedTarget;
+            document.getElementById('dishModalTitle').textContent = button.getAttribute('data-name');
+            document.getElementById('dishModalDescription').textContent = button.getAttribute('data-desc');
+            document.getElementById('dishModalPrice').textContent = '€' + button.getAttribute('data-price');
+            document.getElementById('dishModalImage').src = 'assets/img/dishes/' + button.getAttribute('data-image');
+            document.getElementById('dishModalImage').alt = button.getAttribute('data-name');
+        });
+        
+
+
+
+    </script>
+</body>
+</html>
