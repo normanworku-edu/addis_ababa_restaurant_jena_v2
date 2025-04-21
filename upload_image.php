@@ -106,3 +106,21 @@ try {
     ]);
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+</head>
+<body>
+    <h1 data-translate="uploadImageTitle">Upload Image</h1>
+    <p data-translate="uploadImageIntro">Use this page to upload images to the server.</p>
+    <form action="upload_image.php" method="post" enctype="multipart/form-data">
+        <label for="imageFile" data-translate="selectImageLabel">Select Image File</label>
+        <input type="file" id="imageFile" name="imageFile">
+        <button type="submit" data-translate="uploadButton">Upload</button>
+    </form>
+</body>
+</html>

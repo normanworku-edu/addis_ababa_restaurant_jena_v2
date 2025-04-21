@@ -175,6 +175,11 @@
       "de": "Unsere Speisekarte",
       "am": "ምናሌችን"
     },
+    "menuIntro": {
+      "en": "Explore our delicious Ethiopian dishes below.",
+      "de": "Entdecken Sie unsere köstlichen äthiopischen Gerichte unten.",
+      "am": "በታች ያሉትን ጣፋጭ ኢትዮጵያዊ ምግቦች ይዉቁ።"
+    },
     "featuredTitle": {
       "en": "Our Specialties",
       "de": "Unsere Spezialitäten",
@@ -349,6 +354,226 @@
       "en": "🥤 Drinks",
       "de": "🥤 Getränke",
       "am": "🥤 መጠጦች"
+    },
+    "contactUs": {
+      "en": "Contact Us",
+      "de": "Kontaktieren Sie uns",
+      "am": "አግኙን"
+    },
+    "welcomeMessage": {
+      "en": "Welcome to Addis Ababa Restaurant",
+      "de": "Willkommen im Addis Ababa Restaurant",
+      "am": "እንኳን ወደ አዲስ አበባ ሬስቶራንት በደህና መጡ"
+    },
+    "introText": {
+      "en": "Experience the authentic taste of Ethiopian cuisine.",
+      "de": "Erleben Sie den authentischen Geschmack der äthiopischen Küche.",
+      "am": "የኢትዮጵያ እንደነበረ ጣዕም ይዉቁ።"
+    },
+    "reviewsTitle": {
+      "en": "Customer Reviews",
+      "de": "Kundenbewertungen",
+      "am": "የደንበኞች ግምገማዎች"
+    },
+    "reviewsIntro": {
+      "en": "See what our customers are saying about us.",
+      "de": "Sehen Sie, was unsere Kunden über uns sagen.",
+      "am": "ደንበኞቻችን ስለእኛ የሚሉትን ይመልከቱ።"
+    },
+    "reservationsTitle": {
+      "en": "Make a Reservation",
+      "de": "Reservieren Sie einen Tisch",
+      "am": "ቦታ ያስይዙ"
+    },
+    "reservationsIntro": {
+      "en": "Reserve your table online and enjoy our delicious meals.",
+      "de": "Reservieren Sie Ihren Tisch online und genießen Sie unsere köstlichen Mahlzeiten.",
+      "am": "በመስመር ላይ ቦታዎን ያስይዙ እና ጣፋጭ ምግቦቻችንን ይዉቁ።"
+    },
+    "galleryTitle": {
+      "en": "Gallery",
+      "de": "Galerie",
+      "am": "ማዕከለ-ምስል"
+    },
+    "galleryIntro": {
+      "en": "Explore our restaurant and dishes through our gallery.",
+      "de": "Entdecken Sie unser Restaurant und unsere Gerichte durch unsere Galerie.",
+      "am": "በማዕከለ-ምስል ቤታችንን እና ምግቦቻችንን ይዉቁ።"
+    },
+    "adminPanelTitle": {
+      "en": "Admin Panel",
+      "de": "Admin-Bereich",
+      "am": "አስተዳደር ቦታ"
+    },
+    "adminPanelIntro": {
+      "en": "Manage your website content and settings here.",
+      "de": "Verwalten Sie hier die Inhalte und Einstellungen Ihrer Website.",
+      "am": "የድህረገፅ ይዘትና ቅንብሮችን እዚህ ያስተዳድሩ።"
+    },
+    "adminMenu": {
+      "en": "Menu Management",
+      "de": "Menüverwaltung",
+      "am": "ምናሌ አስተዳደር"
+    },
+    "adminGallery": {
+      "en": "Gallery Management",
+      "de": "Galerieverwaltung",
+      "am": "ማዕከለ-ምስል አስተዳደር"
+    },
+    "adminReviews": {
+      "en": "Reviews Management",
+      "de": "Bewertungen Verwaltung",
+      "am": "ግምገማዎች አስተዳደር"
+    },
+    "adminContact": {
+      "en": "Contact Info Management",
+      "de": "Kontaktinformationen Verwaltung",
+      "am": "እውቂያ መረጃ አስተዳደር"
+    },
+    "adminHome": {
+      "en": "Home Page Management",
+      "de": "Startseitenverwaltung",
+      "am": "መነሻ ገጽ አስተዳደር"
+    },
+    "addSocialMediaTitle": {
+      "en": "Add New Social Media",
+      "de": "Neue Social Media hinzufügen",
+      "am": "አዲስ ማህበራዊ ሚዲያ ያክሉ"
+    },
+    "platformLabel": {
+      "en": "Platform",
+      "de": "Plattform",
+      "am": "መድረክ"
+    },
+    "linkLabel": {
+      "en": "Link",
+      "de": "Link",
+      "am": "አገናኝ"
+    },
+    "iconLabel": {
+      "en": "Icon",
+      "de": "Symbol",
+      "am": "አዶ"
+    },
+    "cancelButton": {
+      "en": "Cancel",
+      "de": "Abbrechen",
+      "am": "ሰርዝ"
+    },
+    "saveButton": {
+      "en": "Save",
+      "de": "Speichern",
+      "am": "አስቀምጥ"
+    },
+    "footerText": {
+      "en": "© 2023 Addis Ababa Restaurant. All rights reserved.",
+      "de": "© 2023 Addis Ababa Restaurant. Alle Rechte vorbehalten.",
+      "am": "© 2023 አዲስ አበባ ሬስቶራንት። ሁሉም መብቶች የተጠበቁ ናቸው።"
+    },
+    "uploadJsonTitle": {
+      "en": "Upload JSON File",
+      "de": "JSON-Datei hochladen",
+      "am": "JSON ፋይል አስገባ"
+    },
+    "uploadJsonIntro": {
+      "en": "Use this page to upload and replace JSON files on the server.",
+      "de": "Verwenden Sie diese Seite, um JSON-Dateien auf dem Server hochzuladen und zu ersetzen.",
+      "am": "ይህን ገጽ በመጠቀም JSON ፋይሎችን ወደ ሰርቨር ለማስገባት እና ለመተካት ይጠቀሙ።"
+    },
+    "selectFileLabel": {
+      "en": "Select JSON File",
+      "de": "JSON-Datei auswählen",
+      "am": "JSON ፋይል ይምረጡ"
+    },
+    "uploadImageTitle": {
+      "en": "Upload Image",
+      "de": "Bild hochladen",
+      "am": "ምስል አስገባ"
+    },
+    "uploadImageIntro": {
+      "en": "Use this page to upload images to the server.",
+      "de": "Verwenden Sie diese Seite, um Bilder auf den Server hochzuladen.",
+      "am": "ይህን ገጽ በመጠቀም ምስሎችን ወደ ሰርቨር ለማስገባት ይጠቀሙ።"
+    },
+    "selectImageLabel": {
+      "en": "Select Image File",
+      "de": "Bilddatei auswählen",
+      "am": "የምስል ፋይል ይምረጡ"
+    },
+    "uploadButton": {
+      "en": "Upload",
+      "de": "Hochladen",
+      "am": "አስገባ"
+    },
+    "userAccountsTitle": {
+      "en": "User Accounts Management",
+      "de": "Benutzerkontenverwaltung",
+      "am": "የተጠቃሚ መለያዎች አስተዳደር"
+    },
+    "userAccountsIntro": {
+      "en": "Manage user accounts and permissions here.",
+      "de": "Verwalten Sie hier Benutzerkonten und Berechtigungen.",
+      "am": "እዚህ የተጠቃሚ መለያዎችን እና ፈቃዶችን ያስተዳድሩ።"
+    },
+    "userNameColumn": {
+      "en": "Username",
+      "de": "Benutzername",
+      "am": "የተጠቃሚ ስም"
+    },
+    "emailColumn": {
+      "en": "Email",
+      "de": "E-Mail",
+      "am": "ኢሜል"
+    },
+    "roleColumn": {
+      "en": "Role",
+      "de": "Rolle",
+      "am": "ሚና"
+    },
+    "actionsColumn": {
+      "en": "Actions",
+      "de": "Aktionen",
+      "am": "እርምጃዎች"
+    },
+    "addNewUserButton": {
+      "en": "Add New User",
+      "de": "Neuen Benutzer hinzufügen",
+      "am": "አዲስ ተጠቃሚ ያክሉ"
+    },
+    "translationsTitle": {
+      "en": "Translations Management",
+      "de": "Übersetzungsverwaltung",
+      "am": "ትርጉም አስተዳደር"
+    },
+    "translationsIntro": {
+      "en": "Manage translations for your website content.",
+      "de": "Verwalten Sie Übersetzungen für Ihre Website-Inhalte.",
+      "am": "የድህረገፅ ይዘትዎን ትርጉሞችን ያስተዳድሩ።"
+    },
+    "keyColumn": {
+      "en": "Key",
+      "de": "Schlüssel",
+      "am": "ቁልፍ"
+    },
+    "englishColumn": {
+      "en": "English",
+      "de": "Englisch",
+      "am": "እንግሊዝኛ"
+    },
+    "germanColumn": {
+      "en": "German",
+      "de": "Deutsch",
+      "am": "ጀርመንኛ"
+    },
+    "amharicColumn": {
+      "en": "Amharic",
+      "de": "Amharisch",
+      "am": "አማርኛ"
+    },
+    "addNewTranslationButton": {
+      "en": "Add New Translation",
+      "de": "Neue Übersetzung hinzufügen",
+      "am": "አዲስ ትርጉም ያክሉ"
     }
   }
 }

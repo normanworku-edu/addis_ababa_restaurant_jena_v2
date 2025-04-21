@@ -472,11 +472,14 @@ function setupMenuActionButtons(){
     });
 }
 
-
-// Add event listener for category dropdown changes
-document.getElementById('dishCategoryFilter').addEventListener('change', async function () {
-    populateMenuTable(); // Repopulate menu table based on selected category
+// when document loaded
+document.addEventListener('DOMContentLoaded', async function () {
+    // Add event listener for category dropdown changes
+    document.getElementById('dishCategoryFilter').addEventListener('change', async function () {
+        populateMenuTable(); // Repopulate menu table based on selected category
+    });
 });
+
 
 // Function to show the add modal
 function showAddMenuItemModal() {

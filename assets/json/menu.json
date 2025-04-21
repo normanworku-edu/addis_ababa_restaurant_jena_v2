@@ -1,6 +1,6 @@
 {
   "createDate": "2024-01-01T00:00:00Z",
-  "lastUpdated": "2025-04-14T12:06:51.837Z",
+  "lastUpdated": "2025-04-21T10:07:38.599Z",
   "menu": {
     "category": [
       {
@@ -16,7 +16,7 @@
             "dishId": "1",
             "uniqueRandomTag": "Db4hN0sS6b",
             "name": {
-              "en": "Doro Wot55",
+              "en": "Doro Wot",
               "de": "Doro Wot",
               "am": "ዶሮ ወጥ"
             },
@@ -31,7 +31,7 @@
               "am": "ዶሮ በሚጥሚጣ ስስ ከኢትዮጵያዊ ቅመሞች፣ የተቀቀለ እንቁላል እና ከሚፈለገ አዲስ ፎርማጆ ጋር"
             },
             "price": "8.50",
-            "imagefile": "",
+            "imagefile": "shiro.jpg",
             "hidden": false,
             "selected": true,
             "allergens": [
@@ -40,7 +40,7 @@
             "additives": [
               "f"
             ],
-            "lastUpdated": "2025-04-14T12:06:51.837Z",
+            "lastUpdated": "2025-04-21T10:07:38.599Z",
             "price2": "11"
           },
           {

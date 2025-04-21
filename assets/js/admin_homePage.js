@@ -53,32 +53,10 @@ function populateHomeContentForm(data) {
     document.getElementById('aboutSectionImagePreview').src = data.aboutSectionImage || '';
 }
 
-// Ensure all cards remain visible
-document.querySelectorAll('.card').forEach(card => {
-    card.style.display = 'block'; // Ensure all cards are always displayed
-});
 
-// Add edit/save buttons to each card
-['homeTitleCard', 'homeSubtitleCard', 'aboutTextCard', 'homepageImagesCard'].forEach(cardId => {
-    const card = document.getElementById(cardId);
-    if (card) {
-        const editButton = document.createElement('button');
-        editButton.className = 'btn btn-outline-primary btn-sm position-absolute top-0 end-0 m-2';
-        editButton.style.height = '30px'; // Reduce height of the button
-        editButton.innerHTML = '<i class="bi bi-pencil"></i> Edit';
-        editButton.addEventListener('click', () => toggleCardEditSaveMode(editButton, cardId));
-        card.querySelector('.card-header').appendChild(editButton);
-
-        // Ensure all fields are initially uneditable
-        const inputs = card.querySelectorAll('input, textarea');
-        inputs.forEach(input => input.disabled = true);
-    } else {
-        console.error(`Card with ID "${cardId}" not found.`);
-    }
-});
 
 // Toggle between edit and save mode for a card
-function toggleCardEditSaveMode(button, cardId) {
+function toggleHomePageCardEditSaveMode(button, cardId) {
     const card = document.getElementById(cardId);
     if (!card) return;
 
@@ -140,11 +118,39 @@ function handleHomePageImageUpload(input, key) {
         .catch(() => showInformationModal('Image upload failed!'));
 }
 
-// Fetch and display home content on page load
-fetchHomeContent();
+
 
 // Ensure the upload button is enabled and add event listener
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Fetch and display home content on page load
+    fetchHomeContent();
+
+    // Ensure all cards remain visible
+    document.querySelectorAll('.card').forEach(card => {
+        card.style.display = 'block'; // Ensure all cards are always displayed
+    });
+
+    // Add edit/save buttons to each card
+    ['homeTitleCard', 'homeSubtitleCard', 'aboutTextCard', 'homepageImagesCard'].forEach(cardId => {
+        const card = document.getElementById(cardId);
+        if (card) {
+            const editButton = document.createElement('button');
+            editButton.className = 'btn btn-outline-primary btn-sm position-absolute top-0 end-0 m-2';
+            editButton.style.height = '30px'; // Reduce height of the button
+            editButton.innerHTML = '<i class="bi bi-pencil"></i> Edit';
+            editButton.addEventListener('click', () => toggleHomePageCardEditSaveMode(editButton, cardId));
+            card.querySelector('.card-header').appendChild(editButton);
+
+            // Ensure all fields are initially uneditable
+            const inputs = card.querySelectorAll('input, textarea');
+            inputs.forEach(input => input.disabled = true);
+        } else {
+            console.error(`Card with ID "${cardId}" not found.`);
+        }
+    });
+
+
+
     /**
      * ===== Home Page Management Event Listeners =====
      */
@@ -156,13 +162,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Add specific listeners for homepage title, subtitle, and about text inputs
     ['homeTitle-en-input', 'homeTitle-de-input', 'homeTitle-am-input',
-     'homeSubtitle-en-input', 'homeSubtitle-de-input', 'homeSubtitle-am-input',
-     'aboutText-en-input', 'aboutText-de-input', 'aboutText-am-input'].forEach(id => {
-        const input = document.getElementById(id);
-        if (input) {
-            input.addEventListener('input', markHomePageAsChanged);
-        }
-    });
+        'homeSubtitle-en-input', 'homeSubtitle-de-input', 'homeSubtitle-am-input',
+        'aboutText-en-input', 'aboutText-de-input', 'aboutText-am-input'].forEach(id => {
+            const input = document.getElementById(id);
+            if (input) {
+                input.addEventListener('input', markHomePageAsChanged);
+            }
+        });
 
     // Add event listeners for image inputs
     document.getElementById('homeBackgroundImageInput')?.addEventListener('change', function () {
@@ -202,5 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+
 });
 

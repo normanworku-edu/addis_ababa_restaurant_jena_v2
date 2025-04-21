@@ -1,6 +1,6 @@
 {
     "createDate": "2024-01-01T00:00:00Z",
-    "lastUpdated": "2025-04-19T12:54:29.092Z",
+    "lastUpdated": "2025-04-21T10:05:36.442Z",
     "userAccounts": {
         "superadmin": {
             "password": "superadmin1",
@@ -11,6 +11,12 @@
         "admin": {
             "password": "admin1234",
             "userEmail": "n@f.c",
+            "isBlocked": false,
+            "isSuperAdmin": false
+        },
+        "norman": {
+            "password": "norman2012",
+            "userEmail": "n@n.n",
             "isBlocked": false,
             "isSuperAdmin": false
         }

@@ -83,7 +83,7 @@ function populateUserAccountsForm(userAccountsData) {
 
         // Add event listener for delete action
         userAccountsCard.querySelector('.delete-user-account').addEventListener('click', function () {
-                deleteUserAccounts(userName);
+            deleteUserAccounts(userName);
         });
 
         userAccountsContainer.appendChild(userAccountsCard);
@@ -121,7 +121,7 @@ function deleteUserAccounts(userName) {
     });
 }
 
-function toggleCardEditSaveMode(button, card, userName) {
+function toggleUserAccountPageCardEditSaveMode(button, card, userName) {
     const isEditing = button.classList.contains('editing');
     const userNameInput = card.querySelector('.user-name');
     const passwordInput = card.querySelector('.user-password');
@@ -149,7 +149,7 @@ function toggleCardEditSaveMode(button, card, userName) {
                 password: newPassword,
                 userEmail: newUserEmail,
                 isBlocked: userAccountsData.userAccounts[userName]?.isBlocked || false,
-                isSuperAdmin:  userAccountsData.userAccounts[newUserName]?.isSuperAdmin || false
+                isSuperAdmin: userAccountsData.userAccounts[newUserName]?.isSuperAdmin || false
             };
             markUserAccountsAsChanged();
         } else {
@@ -273,12 +273,12 @@ function AddOrEditUserAccounts(userName = '') {
         nameInput.classList.add('was-validated');
         passwordInput.classList.add('was-validated');
         emailInput.classList.add('was-validated');
-        
+
         // Check validity of each field
         const isNameValid = nameInput.checkValidity();
         const isPasswordValid = passwordInput.checkValidity();
         const isEmailValid = emailInput.checkValidity();
-        
+
         if (!isNameValid || !isPasswordValid || !isEmailValid) {
             // If any field is invalid, show error messages and return
             form.classList.add('was-validated');
@@ -332,7 +332,7 @@ function AddOrEditUserAccounts(userName = '') {
 
     // Add input event listeners for real-time validation
     [nameInput, passwordInput, emailInput].forEach(input => {
-        input.addEventListener('input', function() {
+        input.addEventListener('input', function () {
             if (this.checkValidity()) {
                 this.classList.remove('is-invalid');
                 this.classList.add('is-valid');
@@ -346,65 +346,69 @@ function AddOrEditUserAccounts(userName = '') {
 
 
 
-document.getElementById('addUserAccountsBtn').addEventListener('click', async function () {
-    // Show modal for adding new user account
-    AddOrEditUserAccounts();
-})
+document.addEventListener('DOMContentLoaded', async () => {
 
-// Save contact info
-document.getElementById('updateWebsiteUserAccounts').addEventListener('click', async function () {
-    showConfirmationModal(
-        'You are about to overwrite the user accounts data on the server. This action cannot be undone. Do you want to proceed?',
-        async function () {
-            // Update user accounts data
-            document.querySelectorAll('#userAccountsContainer .card').forEach(card => {
-                const userNameInput = card.querySelector('.user-name').value.trim();
-                const passwordInput = card.querySelector('.user-password').value.trim();
-                const userEmailInput = card.querySelector('.user-email').value.trim();
-                const isBlocked = card.querySelector('.toggle-user-account-blocked i').classList.contains('bi-eye-slash');
 
-                if (userNameInput && passwordInput) {
-                    // Preserve existing isSuperAdmin value
-                    const isSuperAdmin = userAccountsData.userAccounts[userNameInput]?.isSuperAdmin || false;
+    document.getElementById('addUserAccountsBtn').addEventListener('click', async function () {
+        // Show modal for adding new user account
+        AddOrEditUserAccounts();
+    })
 
-                    userAccountsData.userAccounts[userNameInput] = {
-                        password: passwordInput,
-                        userEmail: userEmailInput,
-                        isBlocked: isBlocked,
-                        isSuperAdmin: isSuperAdmin // Preserve isSuperAdmin
-                    };
-                }
-            });
+    // Save contact info
+    document.getElementById('updateWebsiteUserAccounts').addEventListener('click', async function () {
+        showConfirmationModal(
+            'You are about to overwrite the user accounts data on the server. This action cannot be undone. Do you want to proceed?',
+            async function () {
+                // Update user accounts data
+                document.querySelectorAll('#userAccountsContainer .card').forEach(card => {
+                    const userNameInput = card.querySelector('.user-name').value.trim();
+                    const passwordInput = card.querySelector('.user-password').value.trim();
+                    const userEmailInput = card.querySelector('.user-email').value.trim();
+                    const isBlocked = card.querySelector('.toggle-user-account-blocked i').classList.contains('bi-eye-slash');
 
-            // Update lastUpdated field
-            userAccountsData.lastUpdated = getCurrentTimestamp();
+                    if (userNameInput && passwordInput) {
+                        // Preserve existing isSuperAdmin value
+                        const isSuperAdmin = userAccountsData.userAccounts[userNameInput]?.isSuperAdmin || false;
 
-            // Convert userAccountsData to pretty JSON
-            const jsonData = JSON.stringify(userAccountsData, null, 4);
-            const formData = new FormData();
-            formData.append('jsonFile', new Blob([jsonData], { type: 'application/json' }), 'userAccounts.json');
-            formData.append('upload_path', 'assets/json/'); // Updated path
-
-            try {
-                // Upload userAccounts.json to the server
-                const response = await fetch('upload_json.php', {
-                    method: 'POST',
-                    body: formData
+                        userAccountsData.userAccounts[userNameInput] = {
+                            password: passwordInput,
+                            userEmail: userEmailInput,
+                            isBlocked: isBlocked,
+                            isSuperAdmin: isSuperAdmin // Preserve isSuperAdmin
+                        };
+                    }
                 });
 
-                if (response.ok) {
-                    showInformationModal('User accounts data updated successfully!');
-                    resetUserAccountsChangedStatus();
-                } else {
-                    throw new Error('Failed to update user accounts data.');
-                }
-            } catch (error) {
-                console.error('Error uploading user accounts data:', error);
-                showInformationModal('Failed to update user accounts data. Please try again.');
-            }
-        }
-    );
-});
+                // Update lastUpdated field
+                userAccountsData.lastUpdated = getCurrentTimestamp();
 
-// Fetch and display contact info on page load
-fetchUserAccounts();
+                // Convert userAccountsData to pretty JSON
+                const jsonData = JSON.stringify(userAccountsData, null, 4);
+                const formData = new FormData();
+                formData.append('jsonFile', new Blob([jsonData], { type: 'application/json' }), 'userAccounts.json');
+                formData.append('upload_path', 'assets/json/'); // Updated path
+
+                try {
+                    // Upload userAccounts.json to the server
+                    const response = await fetch('upload_json.php', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    if (response.ok) {
+                        showInformationModal('User accounts data updated successfully!');
+                        resetUserAccountsChangedStatus();
+                    } else {
+                        throw new Error('Failed to update user accounts data.');
+                    }
+                } catch (error) {
+                    console.error('Error uploading user accounts data:', error);
+                    showInformationModal('Failed to update user accounts data. Please try again.');
+                }
+            }
+        );
+    });
+
+    // Fetch and display contact info on page load
+    fetchUserAccounts();
+});

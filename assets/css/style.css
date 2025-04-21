@@ -5,17 +5,23 @@
     --accent-yellow: #E8B54B;
     --light-text: #F5F5F5;
     --dark-text: #333333;
-    --wood-texture: url('../img/background/wood-texture.jpg');
+    /* Replaced image with wood-like gradient (kept the same variable name) */
+    --wood-texture: linear-gradient(
+        135deg,
+        #8B5A2B 0%,     /* Base wood color */
+        #A67C52 25%,    /* Lighter grain */
+        #8B5A2B 50%,    /* Darker grain */
+        #A67C52 75%,    /* Light streak */
+        #8B5A2B 100%    /* Back to base */
+    );
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--dark-text);
-    background-color: #f9f9f9;
+    background: var(--wood-texture), linear-gradient(to bottom, #ffffff, #f0f0f0);
+    background-blend-mode: overlay; /* Softens the gradient */
     line-height: 1.6;
-    background-image: url('assets/img/background/wood-texture.jpg'), linear-gradient(to bottom, #ffffff, #f0f0f0);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
@@ -154,7 +160,7 @@ body {
 
 
 .hero-fixed-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/img/background/hero-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     background-attachment: fixed; /* This makes the background image static */
     background-size: cover; /* Ensures the background image covers the entire section */
     background-position: center; /* Centers the background image */

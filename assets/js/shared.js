@@ -32,18 +32,7 @@ function generateStarRating(rating) {
 const languageSwitcher = document.getElementById('language-switcher');
 const currentLanguage = localStorage.getItem('language') || 'de';
 
-// Initialize the page with translations
-document.addEventListener('DOMContentLoaded', function() {
-    loadTranslations(currentLanguage);
-    setActiveLanguage(currentLanguage);
-    initWhatsAppButton();
-    initMobileMenu();
 
-
-    // Implement auto-collapsing behaviors in Bootstrap:
-
-
-});
 
 // Scroll to category
 document.addEventListener('click', function(event) {
@@ -294,22 +283,6 @@ function generateFooter2() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Fetch contact info from the JSON file
 async function fetchContactInfo_fromJson() {
     try {
@@ -489,11 +462,23 @@ async function generateFooter(currentLanguage = 'de') {
             
             <hr class="my-4">
             <div class="text-center">
-                <p class="mb-0" data-translate="footerCopyright">
-                    © ${new Date().getFullYear()} Ethiopian Restaurant. All rights reserved.
-                </p>
+                <p class="mb-0" data-translate="footerCopyright">© 2023 Ethiopian Restaurant. All rights reserved.</p>
             </div>
         </div>
     </footer>
     `;
 }
+
+// on documentloaded
+document.addEventListener('DOMContentLoaded', async () => {
+
+});
+
+// Initialize the page with translations and other functionalities
+document.addEventListener('DOMContentLoaded', function() {
+    loadTranslations(currentLanguage);
+    setActiveLanguage(currentLanguage);
+    initWhatsAppButton();
+    initMobileMenu();
+
+});

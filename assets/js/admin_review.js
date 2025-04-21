@@ -312,10 +312,16 @@ function setupReviewActionButtons() {
     });
 }
 
-// Add event listener for category dropdown changes
-document.getElementById('reviewCategoryFilter').addEventListener('change', async function () {
-    populateReviewsTable(); // Repopulate review table based on selected category
+
+// when document loaded
+document.addEventListener('DOMContentLoaded', async function () {
+    // Add event listener for category dropdown changes
+    document.getElementById('reviewCategoryFilter').addEventListener('change', async function () {
+        populateReviewsTable(); // Repopulate review table based on selected category
+    });
 });
+
+
 
 // Function to toggle hidden status for a review
 function toggleHiddenReview(uniqueRandomTag, categoryId) {

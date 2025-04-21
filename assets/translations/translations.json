@@ -22,8 +22,8 @@
     },
     "adminLoginTitle": {
       "en": "Admin Login",
-      "de": "Admin Login",
-      "am": "Admin Login"
+      "de": "Admin-Anmeldung",
+      "am": "አስተዳዳሪ መግቢያ"
     },
     "allergenInfoTitle": {
       "en": "Allergen Information",
@@ -62,7 +62,7 @@
     },
     "reviewsTitle2": {
       "en": "Customer Reviews",
-      "de": "Gästebewertungen",
+      "de": "Kundenbewertungen",
       "am": "የደንበኞች ግምገማዎች"
     },
     "reservationDate": {
@@ -81,14 +81,14 @@
       "am": "ባህላዊ ምግቦችን በምቾት ያግኙ"
     },
     "pageTitle": {
-      "en": "Ethiopian Restaurant - Authentic Cuisine in Berlin2",
-      "de": "Äthiopisches Restaurant - Authentische Küche in Berlin",
-      "am": "የኢትዮጵያ ሬስቶራንት - እውነተኛ ምግብ በበርሊን"
+      "en": "Addis Ababa Restaurant - Authentic Ethiopian Cuisine in Berlin",
+      "de": "Addis Ababa Restaurant - Authentische äthiopische Küche in Berlin",
+      "am": "አዲስ አበባ ሬስቶራንት - እውነተኛ የኢትዮጵያ ምግብ በበርሊን"
     },
     "footerFollow": {
       "en": "Follow Us",
       "de": "Folgen Sie uns",
-      "am": "ን ይከተሉ"
+      "am": "ይከተሉን"
     },
     "navGallery": {
       "en": "Gallery",
@@ -112,8 +112,8 @@
     },
     "adminLoginBtn": {
       "en": "Login",
-      "de": "Einloggen",
-      "am": "Login"
+      "de": "Anmelden",
+      "am": "ግባ"
     },
     "heroBtnReserve": {
       "en": "Make Reservation",
@@ -128,7 +128,7 @@
     "adminMenuTitle": {
       "en": "Menu",
       "de": "Menü",
-      "am": "Menu"
+      "am": "ምናሌ"
     },
     "navMenu": {
       "en": "Menu",
@@ -156,9 +156,9 @@
       "am": "አቅርቦቶች እና ዜናዎች"
     },
     "specialOffersTitle": {
-      "en": "Offers & News",
-      "de": "Angebote & Neuigkeiten",
-      "am": "አቅርቦቶች እና ምርጥ ዜናዎች"
+      "en": "Special Offers",
+      "de": "Sonderangebote",
+      "am": "ልዩ አቅርቦቶች"
     },
     "footerHours": {
       "en": "Opening Hours",
@@ -175,6 +175,11 @@
       "de": "Unsere Speisekarte",
       "am": "ምናሌችን"
     },
+    "menuIntro": {
+      "en": "Explore our delicious Ethiopian dishes below.",
+      "de": "Entdecken Sie unsere köstlichen äthiopischen Gerichte unten.",
+      "am": "በታች ያሉትን ጣፋጭ ኢትዮጵያዊ ምግቦች ይዉቁ።"
+    },
     "featuredTitle": {
       "en": "Our Specialties",
       "de": "Unsere Spezialitäten",
@@ -188,7 +193,7 @@
     "adminPassword": {
       "en": "Password",
       "de": "Passwort",
-      "am": "Password"
+      "am": "የይለፍ ቃል"
     },
     "contactPhone": {
       "en": "Phone",
@@ -207,12 +212,12 @@
     },
     "navReservations": {
       "en": "Reservations",
-      "de": "Reservierung",
-      "am": "ቦታ ጠፋ"
+      "de": "Reservierungen",
+      "am": "ቦታ ማስያዝ"
     },
     "galleryTitle": {
       "en": "Restaurant Gallery",
-      "de": "Restaurant Galerie",
+      "de": "Restaurant-Galerie",
       "am": "የሬስቶራንት ጋሌሪ"
     },
     "navReviews": {
@@ -253,7 +258,7 @@
     "adminTranslationsTitle": {
       "en": "Translations",
       "de": "Übersetzungen",
-      "am": "Translations"
+      "am": "ትርጉሞች"
     },
     "adminUserAccountsTitle": {
       "en": "User Accounts",
@@ -263,7 +268,7 @@
     "adminUsername": {
       "en": "Username",
       "de": "Benutzername",
-      "am": "Username"
+      "am": "የተጠቃሚ ስም"
     },
     "viewDetails": {
       "en": "View Details",
@@ -282,17 +287,17 @@
     },
     "reviewGoogleMap": {
       "en": "Write Google Review",
-      "de": "Google-Bewertung Schreiben",
+      "de": "Google-Bewertung schreiben",
       "am": "የGoogle ግምገማ ይጻፉ"
     },
     "reviewTripAdvisor": {
       "en": "Write TripAdvisor Review",
-      "de": "TripAdvisor-Bewertung Schreiben",
+      "de": "TripAdvisor-Bewertung schreiben",
       "am": "የTripAdvisor ግምገማ ይጻፉ"
     },
     "reviewYelp": {
       "en": "Write Yelp Review",
-      "de": "Yelp-Bewertung Schreiben",
+      "de": "Yelp-Bewertung schreiben",
       "am": "የYelp ግምገማ ይጻፉ"
     },
     "contactFormEmail": {
@@ -311,9 +316,9 @@
       "am": "ስምዎ"
     },
     "footerCopyright": {
-      "en": "© 2023 Ethiopian Restaurant. All rights reserved.",
-      "de": "© 2023 Äthiopisches Restaurant. Alle Rechte vorbehalten.",
-      "am": "© 2023 የኢትዮጵያ ሬስቶራንት. መብቱ በህግ የተጠበቀ ነው።"
+      "en": "© 2023 Addis Ababa Restaurant. All rights reserved.",
+      "de": "© 2023 Addis Ababa Restaurant. Alle Rechte vorbehalten.",
+      "am": "© 2023 አዲስ አበባ ሬስቶራንት። መብቱ በህግ የተጠበቀ ነው።"
     },
     "menuHotDrinks": {
       "en": "☕ Hot Drinks",
@@ -346,9 +351,394 @@
       "am": "🥗 አታክልት ምግቦች"
     },
     "menuSoftDrinks": {
-      "en": "🥤 Drinks",
-      "de": "🥤 Getränke",
-      "am": "🥤 መጠጦች"
+      "en": "🥤 Soft Drinks",
+      "de": "🥤 Erfrischungsgetränke",
+      "am": "🥤 ሶፍት ድሪንክስ"
+    },
+    "contactUs": {
+      "en": "Contact Us",
+      "de": "Kontaktieren Sie uns",
+      "am": "አግኙን"
+    },
+    "welcomeMessage": {
+      "en": "Welcome to Addis Ababa Restaurant",
+      "de": "Willkommen im Addis Ababa Restaurant",
+      "am": "እንኳን ወደ አዲስ አበባ ሬስቶራንት በደህና መጡ"
+    },
+    "introText": {
+      "en": "Experience the authentic taste of Ethiopian cuisine.",
+      "de": "Erleben Sie den authentischen Geschmack der äthiopischen Küche.",
+      "am": "የኢትዮጵያ እንደነበረ ጣዕም ይዉቁ።"
+    },
+    "reviewsIntro": {
+      "en": "See what our customers are saying about us.",
+      "de": "Sehen Sie, was unsere Kunden über uns sagen.",
+      "am": "ደንበኞቻችን ስለእኛ የሚሉትን ይመልከቱ።"
+    },
+    "reservationsTitle": {
+      "en": "Make a Reservation",
+      "de": "Reservieren Sie einen Tisch",
+      "am": "ቦታ ያስይዙ"
+    },
+    "reservationsIntro": {
+      "en": "Reserve your table online and enjoy our delicious meals.",
+      "de": "Reservieren Sie Ihren Tisch online und genießen Sie unsere köstlichen Mahlzeiten.",
+      "am": "በመስመር ላይ ቦታዎን ያስይዙ እና ጣፋጭ ምግቦቻችንን ይዉቁ።"
+    },
+    "galleryIntro": {
+      "en": "Explore our restaurant and dishes through our gallery.",
+      "de": "Entdecken Sie unser Restaurant und unsere Gerichte durch unsere Galerie.",
+      "am": "በጋሌሪ በኩል ሬስቶራንታችንን እና ምግቦቻችንን ይዉቁ።"
+    },
+    "adminPanelTitle": {
+      "en": "Admin Panel",
+      "de": "Admin-Bereich",
+      "am": "አስተዳደር ፓነል"
+    },
+    "adminPanelIntro": {
+      "en": "Manage your website content and settings here.",
+      "de": "Verwalten Sie hier die Inhalte und Einstellungen Ihrer Website.",
+      "am": "የድህረገፅ ይዘትና ቅንብሮችን እዚህ ያስተዳድሩ።"
+    },
+    "adminMenu": {
+      "en": "Menu Management",
+      "de": "Menüverwaltung",
+      "am": "ምናሌ አስተዳደር"
+    },
+    "adminGallery": {
+      "en": "Gallery Management",
+      "de": "Galerieverwaltung",
+      "am": "ጋሌሪ አስተዳደር"
+    },
+    "adminOffersAndNewsTitle": {
+      "en": "Offers & News Management",
+      "de": "Angebote & Neuigkeiten Verwaltung",
+      "am": "አቅርቦቶች እና ዜናዎች አስተዳደር"
+    },
+    "adminReviews": {
+      "en": "Reviews Management",
+      "de": "Bewertungsverwaltung",
+      "am": "ግምገማ አስተዳደር"
+    },
+    "adminContact": {
+      "en": "Contact Info Management",
+      "de": "Kontaktinformationsverwaltung",
+      "am": "የእውቂያ መረጃ አስተዳደር"
+    },
+    "adminHome": {
+      "en": "Home Page Management",
+      "de": "Startseitenverwaltung",
+      "am": "ዋና ገጽ አስተዳደር"
+    },
+    "adminHomePageTitle": {
+      "en": "Home",
+      "de": "Startseite",
+      "am": "መነሻ"
+    },
+    "addSocialMediaTitle": {
+      "en": "Add New Social Media",
+      "de": "Neues Social Media hinzufügen",
+      "am": "አዲስ ማህበራዊ ሚዲያ ያክሉ"
+    },
+    "platformLabel": {
+      "en": "Platform",
+      "de": "Plattform",
+      "am": "መድረክ"
+    },
+    "linkLabel": {
+      "en": "Link",
+      "de": "Link",
+      "am": "አገናኝ"
+    },
+    "iconLabel": {
+      "en": "Icon",
+      "de": "Symbol",
+      "am": "አዶ"
+    },
+    "cancelButton": {
+      "en": "Cancel",
+      "de": "Abbrechen",
+      "am": "ሰርዝ"
+    },
+    "saveButton": {
+      "en": "Save",
+      "de": "Speichern",
+      "am": "አስቀምጥ"
+    },
+    "footerText": {
+      "en": "© 2023 Addis Ababa Restaurant. All rights reserved.",
+      "de": "© 2023 Addis Ababa Restaurant. Alle Rechte vorbehalten.",
+      "am": "© 2023 አዲስ አበባ ሬስቶራንት። መብቱ በህግ የተጠበቀ ነው።"
+    },
+    "uploadJsonTitle": {
+      "en": "Upload JSON File",
+      "de": "JSON-Datei hochladen",
+      "am": "JSON ፋይል አስገባ"
+    },
+    "uploadJsonIntro": {
+      "en": "Use this page to upload and replace JSON files on the server.",
+      "de": "Verwenden Sie diese Seite, um JSON-Dateien auf dem Server hochzuladen und zu ersetzen.",
+      "am": "ይህን ገጽ በመጠቀም JSON ፋይሎችን ወደ ሰርቨር ለማስገባት እና ለመተካት ይጠቀሙ።"
+    },
+    "selectFileLabel": {
+      "en": "Select JSON File",
+      "de": "JSON-Datei auswählen",
+      "am": "JSON ፋይል ይምረጡ"
+    },
+    "uploadImageTitle": {
+      "en": "Upload Image",
+      "de": "Bild hochladen",
+      "am": "ምስል አስገባ"
+    },
+    "uploadImageIntro": {
+      "en": "Use this page to upload images to the server.",
+      "de": "Verwenden Sie diese Seite, um Bilder auf den Server hochzuladen.",
+      "am": "ይህን ገጽ በመጠቀም ምስሎችን ወደ ሰርቨር ለማስገባት ይጠቀሙ።"
+    },
+    "selectImageLabel": {
+      "en": "Select Image File",
+      "de": "Bilddatei auswählen",
+      "am": "የምስል ፋይል ይምረጡ"
+    },
+    "uploadButton": {
+      "en": "Upload",
+      "de": "Hochladen",
+      "am": "አስገባ"
+    },
+    "userAccountsTitle": {
+      "en": "User Accounts Management",
+      "de": "Benutzerkontenverwaltung",
+      "am": "የተጠቃሚ መለያ አስተዳደር"
+    },
+    "userAccountsIntro": {
+      "en": "Manage user accounts and permissions here.",
+      "de": "Verwalten Sie hier Benutzerkonten und Berechtigungen.",
+      "am": "የተጠቃሚ መለያዎችን እና ፈቃዶችን እዚህ ያስተዳድሩ።"
+    },
+    "userNameColumn": {
+      "en": "Username",
+      "de": "Benutzername",
+      "am": "የተጠቃሚ ስም"
+    },
+    "emailColumn": {
+      "en": "Email",
+      "de": "E-Mail",
+      "am": "ኢሜል"
+    },
+    "roleColumn": {
+      "en": "Role",
+      "de": "Rolle",
+      "am": "ሚና"
+    },
+    "actionsColumn": {
+      "en": "Actions",
+      "de": "Aktionen",
+      "am": "ድርጊቶች"
+    },
+    "addNewUserButton": {
+      "en": "Add New User",
+      "de": "Neuen Benutzer hinzufügen",
+      "am": "አዲስ ተጠቃሚ ያክሉ"
+    },
+    "translationsTitle": {
+      "en": "Translations Management",
+      "de": "Übersetzungsverwaltung",
+      "am": "ትርጉም አስተዳደር"
+    },
+    "translationsIntro": {
+      "en": "Manage translations for your website content.",
+      "de": "Verwalten Sie Übersetzungen für Ihre Website-Inhalte.",
+      "am": "የድህረገፅ ይዘትዎን ትርጉሞችን ያስተዳድሩ።"
+    },
+    "keyColumn": {
+      "en": "Key",
+      "de": "Schlüssel",
+      "am": "ቁልፍ"
+    },
+    "englishColumn": {
+      "en": "English",
+      "de": "Englisch",
+      "am": "እንግሊዝኛ"
+    },
+    "germanColumn": {
+      "en": "German",
+      "de": "Deutsch",
+      "am": "ጀርመንኛ"
+    },
+    "amharicColumn": {
+      "en": "Amharic",
+      "de": "Amharisch",
+      "am": "አማርኛ"
+    },
+    "addNewTranslationButton": {
+      "en": "Add New Translation",
+      "de": "Neue Übersetzung hinzufügen",
+      "am": "አዲስ ትርጉም ያክሉ"
+    },
+    "addNewUserTitle": {
+      "en": "Add New User",
+      "de": "Neuen Benutzer hinzufügen",
+      "am": "አዲስ ተጠቃሚ ያክሉ"
+    },
+    "userNameLabel": {
+      "en": "Username",
+      "de": "Benutzername",
+      "am": "የተጠቃሚ ስም"
+    },
+    "emailLabel": {
+      "en": "Email",
+      "de": "E-Mail",
+      "am": "ኢሜል"
+    },
+    "passwordLabel": {
+      "en": "Password",
+      "de": "Passwort",
+      "am": "የይለፍ ቃል"
+    },
+    "roleLabel": {
+      "en": "Role",
+      "de": "Rolle",
+      "am": "ሚና"
+    },
+    "adminPanel": {
+      "en": "Admin Panel",
+      "de": "Admin-Bereich",
+      "am": "አስተዳደር ፓነል"
+    },
+    "adminLogin": {
+      "en": "Admin Login",
+      "de": "Admin-Login",
+      "am": "የአስተዳደር ግባ"
+    },
+    "adminLoginIntro": {
+      "en": "Please enter your credentials to access the admin panel.",
+      "de": "Bitte geben Sie Ihre Anmeldeinformationen ein, um auf das Admin-Panel zuzugreifen.",
+      "am": "ወደ አስተዳደር ፓነል ለመግባት እባኮትን መረጃዎን ያስገቡ።"
+    },
+    "adminLogout": {
+      "en": "Logout",
+      "de": "Abmelden",
+      "am": "ውጣ"
+    },
+    "adminLogoutIntro": {
+      "en": "You have been logged out successfully.",
+      "de": "Sie wurden erfolgreich abgemeldet.",
+      "am": "በተሳካ ሁኔታ ውጣው ተደርጎአል።"
+    },
+    "adminLogoutMessage": {
+      "en": "You have been logged out. Please log in again.",
+      "de": "Sie wurden abgemeldet. Bitte melden Sie sich erneut an.",
+      "am": "ውጣው ተደርጎአል። እባኮትን ወደ ውስጥ ይግቡ።"
+    },
+    "adminLoginError": {
+      "en": "Invalid username or password. Please try again.",
+      "de": "Ungültiger Benutzername oder Passwort. Bitte versuchen Sie es erneut.",
+      "am": "የተሳሳተ የተጠቃሚ ስም ወይም የይለፍ ቃል። እባኮትን ይሞክሩ።"
+    },
+    "adminLoginSuccess": {
+      "en": "Login successful. Welcome to the admin panel.",
+      "de": "Anmeldung erfolgreich. Willkommen im Admin-Bereich.",
+      "am": "ውስጥ ግባ ተደርጎአል። ወደ አስተዳደር ፓነል እንኳን ደህና መጡ።"
+    },
+    "adminMenuIntro": {
+      "en": "Manage your menu items and categories here.",
+      "de": "Verwalten Sie hier Ihre Menüelemente und -kategorien.",
+      "am": "የምናሌ እቃዎችን እና ምድቦችን እዚህ ያስተዳድሩ።"
+    },
+    "adminGalleryIntro": {
+      "en": "Manage your restaurant images and gallery here.",
+      "de": "Verwalten Sie hier Ihre Restaurantbilder und -galerie.",
+      "am": "የሬስቶራንታችን ምስሎችን እና ጋሌሪውን እዚህ ያስተዳድሩ።"
+    },
+    "adminReviewsIntro": {
+      "en": "Manage customer reviews and feedback here.",
+      "de": "Verwalten Sie hier Kundenbewertungen und -feedback.",
+      "am": "ደንበኞች ግምገማዎችን እና አስተያየቶችን እዚህ ያስተዳድሩ።"
+    },
+    "adminContactIntro": {
+      "en": "Manage your contact information and settings here.",
+      "de": "Verwalten Sie hier Ihre Kontaktdaten und -einstellungen.",
+      "am": "የእውቂያ መረጃዎችን እና ቅንብሮችን እዚህ ያስተዳድሩ።"
+    },
+    "adminHomeIntro": {
+      "en": "Manage your home page content and settings here.",
+      "de": "Verwalten Sie hier die Inhalte und Einstellungen Ihrer Startseite.",
+      "am": "የዋና ገጽ ይዘትን እና ቅንብሮችን እዚህ ያስተዳድሩ።"
+    },
+    "adminSocialMediaIntro": {
+      "en": "Manage your social media links and icons here.",
+      "de": "Verwalten Sie hier Ihre Social-Media-Links und -Symbole.",
+      "am": "የማህበራዊ ሚዲያ አገናኞችን እና አዶዎችን እዚህ ያስተዳድሩ።"
+    },
+    "adminUploadJsonIntro": {
+      "en": "Upload and manage JSON files for your website here.",
+      "de": "Laden Sie JSON-Dateien für Ihre Website hier hoch und verwalten Sie sie.",
+      "am": "ወደ ድህረገፅ ይዘት የሚገባ የJSON ፋይሎችን እዚህ ያስገባ እና ያስተዳድሩ።"
+    },
+    "adminUploadImageIntro": {
+      "en": "Upload and manage images for your website here.",
+      "de": "Laden Sie Bilder für Ihre Website hier hoch und verwalten Sie sie.",
+      "am": "ወደ ድህረገፅ ይዘት የሚገባ ምስሎችን እዚህ ያስገባ እና ያስተዳድሩ።"
+    },
+    "adminUserAccountsIntro": {
+      "en": "Manage user accounts and permissions here.",
+      "de": "Verwalten Sie hier Benutzerkonten und Berechtigungen.",
+      "am": "የተጠቃሚ መለያዎችን እና ፈቃዶችን እዚህ ያስተዳድሩ።"
+    },
+    "adminTranslationsIntro": {
+      "en": "Manage translations for your website content here.",
+      "de": "Verwalten Sie hier Übersetzungen für Ihre Website-Inhalte.",
+      "am": "የድህረገፅ ይዘትዎን ትርጉሞችን እዚህ ያስተዳድሩ።"
+    },
+    "adminSettingsIntro": {
+      "en": "Manage your website settings and configurations here.",
+      "de": "Verwalten Sie hier Ihre Website-Einstellungen und -Konfigurationen.",
+      "am": "የድህረገፅ ቅንብሮችን እና ቅንብሮችን እዚህ ያስተዳድሩ።"
+    },
+    "adminSettingsTitle": {
+      "en": "Settings",
+      "de": "Einstellungen",
+      "am": "ቅንብሮች"
+    },
+    "adminSettings": {
+      "en": "Settings",
+      "de": "Einstellungen",
+      "am": "ቅንብሮች"
+    },
+    "adminSettingsSave": {
+      "en": "Save Settings",
+      "de": "Einstellungen speichern",
+      "am": "ቅንብሮችን ይቀመጡ"
+    },
+    "adminSettingsSuccess": {
+      "en": "Settings saved successfully.",
+      "de": "Einstellungen erfolgreich gespeichert.",
+      "am": "ቅንብሮች በተሳካ ሁኔታ ተያይዞ ተመዝግቧል።"
+    },
+    "adminSettingsError": {
+      "en": "Error saving settings. Please try again.",
+      "de": "Fehler beim Speichern der Einstellungen. Bitte versuchen Sie es erneut.",
+      "am": "ቅንብሮች ማስቀመጥ ውስጥ ስህተት አይነበር። እባኮትን ይሞክሩ።"
+    },
+    "adminSettingsLanguage": {
+      "en": "Language",
+      "de": "Sprache",
+      "am": "ቋንቋ"
+    },
+    "adminSettingsLanguageSelect": {
+      "en": "Select Language",
+      "de": "Sprache auswählen",
+      "am": "ቋንቋ ይምረጡ"
+    },
+    "adminSettingsLanguageSuccess": {
+      "en": "Language changed successfully.",
+      "de": "Sprache erfolgreich geändert.",
+      "am": "ቋንቋ በተሳካ ሁኔታ ተለውጦአል።"
+    },
+    "adminSettingsLanguageError": {
+      "en": "Error changing language. Please try again.",
+      "de": "Fehler beim Ändern der Sprache. Bitte versuchen Sie es erneut.",
+      "am": "ቋንቋ ማስተካከያ ውስጥ ስህተት አይነበር። እባኮትን ይሞክሩ።"
     }
   }
 }

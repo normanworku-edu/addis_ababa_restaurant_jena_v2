@@ -1,6 +1,6 @@
 {
     "createDate": "2024-01-01T00:00:00Z",
-    "lastUpdated": "2025-04-21T12:14:21.512Z",
+    "lastUpdated": "2025-04-18T10:00:01.313Z",
     "address": {
         "street": "12 vv Main Street",
         "city": "Jena",
@@ -8,29 +8,24 @@
         "country": "Germany"
     },
     "socialMedia": {
-        "facebook": {
+        "facebook2": {
             "link": "https://facebook.com/restaurantpage2",
             "icon": "http://localhost:8000/assets/img/icons/Screenshot%202025-04-03%20134844.png",
             "isHidden": false
         },
-        "instagram": {
+        "instagram3": {
             "link": "https://instagram.com/restaurantpage",
             "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSIyNDBweCIgaGVpZ2h0PSIyNDBweCI+PHBhdGggZmlsbD0iI2ZiYzAyZCIgZD0iTTQzLjYxMSwyMC4wODNINDJWMjBIMjR2OGgxMS4zMDNjLTEuNjQ5LDQuNjU3LTYuMDgsOC0xMS4zMDMsOGMtNi42MjcsMC0xMi01LjM3My0xMi0xMglzNS4zNzMtMTIsMTItMTJjMy4wNTksMCw1Ljg0MiwxLjE1NCw3Ljk2MSwzLjAzOWw1LjY1Ny01LjY1N0MzNC4wNDYsNi4wNTMsMjkuMjY4LDQsMjQsNEMxMi45NTUsNCw0LDEyLjk1NSw0LDI0czguOTU1LDIwLDIwLDIwCXMyMC04Ljk1NSwyMC0yMEM0NCwyMi42NTksNDMuODYyLDIxLjM1LDQzLjYxMSwyMC4wODN6Ii8+PHBhdGggZmlsbD0iI2U1MzkzNSIgZD0iTTYuMzA2LDE0LjY5MWw2LjU3MSw0LjgxOUMxNC42NTUsMTUuMTA4LDE4Ljk2MSwxMiwyNCwxMmMzLjA1OSwwLDUuODQyLDEuMTU0LDcuOTYxLDMuMDM5CWw1LjY1Ny01LjY1N0MzNC4wNDYsNi4wNTMsMjkuMjY4LDQsMjQsNEMxNi4zMTgsNCw5LjY1Niw4LjMzNyw2LjMwNiwxNC42OTF6Ii8+PHBhdGggZmlsbD0iIzRjYWY1MCIgZD0iTTI0LDQ0YzUuMTY2LDAsOS44Ni0xLjk3NywxMy40MDktNS4xOTJsLTYuMTktNS4yMzhDMjkuMjExLDM1LjA5MSwyNi43MTUsMzYsMjQsMzYJYy01LjIwMiwwLTkuNjE5LTMuMzE3LTExLjI4My03Ljk0NmwtNi41MjIsNS4wMjVDOS41MDUsMzkuNTU2LDE2LjIyNyw0NCwyNCw0NHoiLz48cGF0aCBmaWxsPSIjMTU2NWMwIiBkPSJNNDMuNjExLDIwLjA4M0w0My41OTUsMjBMNDIsMjBIMjR2OGgxMS4zMDNjLTAuNzkyLDIuMjM3LTIuMjMxLDQuMTY2LTQuMDg3LDUuNTcxCWMwLjAwMS0wLjAwMSwwLjAwMi0wLjAwMSwwLjAwMy0wLjAwMmw2LjE5LDUuMjM4QzM2Ljk3MSwzOS4yMDUsNDQsMzQsNDQsMjRDNDQsMjIuNjU5LDQzLjg2MiwyMS4zNSw0My42MTEsMjAuMDgzeiIvPjwvc3ZnPg==",
             "isHidden": false
         },
-        "yelp": {
+        "yelp2": {
             "link": "https://yelp.com/biz/restaurantpage",
             "icon": "http://localhost:8000/assets/img/icons/yelp-icon.svg",
             "isHidden": false
         },
-        "tripadvisor": {
+        "tripadvisor222": {
             "link": "https://tripadvisor.com/biz/restaurantpage",
             "icon": "http://localhost:8000/assets/img/icons/tripadvisor-icon.svg",
-            "isHidden": false
-        },
-        "m2": {
-            "link": "m",
-            "icon": "http://localhost:8000/admin.php",
             "isHidden": false
         }
     },

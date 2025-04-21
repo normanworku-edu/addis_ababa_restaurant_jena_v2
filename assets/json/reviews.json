@@ -1,6 +1,6 @@
 {
   "createDate": "2024-01-01T00:00:00Z",
-  "lastUpdated": "2025-04-14T15:29:46.397Z",
+  "lastUpdated": "2025-04-21T10:08:23.829Z",
   "reviews": {
     "category": [
       {
@@ -138,7 +138,7 @@
             "id": "yp2",
             "uniqueRandomTag": "o1p2q3r4s5",
             "name": {
-              "en": "Fatima Ahmed",
+              "en": "Fatima Ahmed Kemal",
               "de": "Fatima Ahmed",
               "am": "ፋቲማ አህመድ"
             },
@@ -147,12 +147,12 @@
               "de": "Die Fastenspeisen während der Fastenzeit waren beeindruckend. Das Shiro war cremig und geschmackvoll. Allerdings war die Musik zu laut für Unterhaltungen.",
               "am": "በጾም አበባ ወቅት የሚገኙ የጾም ምግቦች አስደናቂ ነበሩ። ሽሮው ክሬሚ እና ጣዕም ያለው ነበር። ሆኖም ሙዚቃው ለቃለ መጠይቅ በጣም ድምጽ ከፍ ያለ ነበር።"
             },
-            "date": "2023-03-18",
             "rating": "3",
             "url": "https://www.yelp.com/biz/addis-abeba-restaurant-jena?rr=5",
             "hidden": false,
             "selected": false,
-            "lastUpdated": "2025-04-14T15:05:27.936Z"
+            "lastUpdated": "2025-04-21T10:08:23.829Z",
+            "date": "2023-03-18"
           }
         ]
       }

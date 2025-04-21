@@ -1,6 +1,6 @@
 {
     "createDate": "2024-01-01T00:00:00Z",
-    "lastUpdated": "2025-04-16T10:52:15.225Z",
+    "lastUpdated": "2025-04-21T09:05:05.923Z",
     "days": [
         {
             "name": {
@@ -68,10 +68,8 @@
                 "de": "Sonntag",
                 "am": "እሁድ"
             },
-            "openingHours": [
-                "17:00 - 17:00"
-            ],
-            "isClosed": false
+            "openingHours": [],
+            "isClosed": true
         }
     ]
 }
